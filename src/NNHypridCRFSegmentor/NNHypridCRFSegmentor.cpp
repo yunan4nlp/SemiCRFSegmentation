@@ -342,13 +342,11 @@ void Segmentor::train(const string& trainFile, const string& devFile, const stri
 	static Metric eval, metric_dev, metric_test, metric_dev2, metric_test2;
 	static vector<Example> subExamples;
 	int devNum = devExamples.size(), testNum = testExamples.size();
-	int start_time, end_time;
 	for (int iter = 0; iter < m_options.maxIter; ++iter) {
 		std::cout << "##### Iteration " << iter << std::endl;
 
 		random_shuffle(indexes.begin(), indexes.end());
 		eval.reset();
-		start_time = clock();
 		for (int updateIter = 0; updateIter < batchBlock; updateIter++) {
 			subExamples.clear();
 			int start_pos = updateIter * m_options.batchSize;
@@ -374,10 +372,9 @@ void Segmentor::train(const string& trainFile, const string& devFile, const stri
 			m_driver.updateModel();
 
 		}
-		end_time = clock();
-		std::cout << "trainning speed time: " << end_time - start_time << endl;
 
 		if (devNum > 0) {
+			clock_t time_start = 0;
 			bCurIterBetter = false;
 			if (!m_options.outBest.empty())
 				decodeInstResults.clear();
@@ -404,6 +401,8 @@ void Segmentor::train(const string& trainFile, const string& devFile, const stri
 				}
 			}
 
+			std::cout << "Dev finished. Total time taken is: " << double(clock() - time_start) / CLOCKS_PER_SEC << std::endl;
+			std::cout << "dev:" << std::endl;
 			metric_dev.print();
 			metric_dev2.print();
 
@@ -413,6 +412,7 @@ void Segmentor::train(const string& trainFile, const string& devFile, const stri
 			}
 
 			if (testNum > 0) {
+				time_start = clock();
 				if (!m_options.outBest.empty())
 					decodeInstResults.clear();
 				metric_test.reset();
@@ -437,6 +437,7 @@ void Segmentor::train(const string& trainFile, const string& devFile, const stri
 						decodeInstResults.push_back(curDecodeInst);
 					}
 				}
+				std::cout << "Test finished. Total time taken is: " << double(clock() - time_start) / CLOCKS_PER_SEC << std::endl;
 				std::cout << "test:" << std::endl;
 				metric_test.print();
 				metric_test2.print();
