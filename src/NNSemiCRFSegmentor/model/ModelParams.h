@@ -25,7 +25,7 @@ public://follow parameters should be initialized outside
 	Alphabet _seg_label_alpha;
 
 public:
-	bool initial(HyperParams& hyper_params){
+	bool initial(HyperParams& hyper_params, AlignedMemoryPool* mem){
 		if(_words.nVSize <= 0 || _label_alpha.size() < 0)
 			return false;
 		hyper_params.wordWindow = hyper_params.wordContext * 2 + 1;
@@ -42,12 +42,12 @@ public:
 		hyper_params.segLabelSize = _seg_label_alpha.size();
 		hyper_params.inputSize = hyper_params.wordWindow * hyper_params.unitSize;
 
-		_tanh1_project.initial(hyper_params.hiddenSize1, hyper_params.inputSize, true);
-		_left_lstm_project.initial(hyper_params.rnnHiddenSize, hyper_params.hiddenSize1);
-		_right_lstm_project.initial(hyper_params.rnnHiddenSize, hyper_params.hiddenSize1);
-		_tanh2_project.initial(hyper_params.hiddenSize1, hyper_params.rnnHiddenSize, hyper_params.rnnHiddenSize, true);
-		_seglayer_project.initial(hyper_params.segHiddenSize, hyper_params.hiddenSize2, hyper_params.hiddenSize2);
-		_olayer_linear.initial(hyper_params.segLabelSize, hyper_params.segHiddenSize, false);
+		_tanh1_project.initial(hyper_params.hiddenSize1, hyper_params.inputSize, true, mem);
+		_left_lstm_project.initial(hyper_params.rnnHiddenSize, hyper_params.hiddenSize1, mem);
+		_right_lstm_project.initial(hyper_params.rnnHiddenSize, hyper_params.hiddenSize1, mem);
+		_tanh2_project.initial(hyper_params.hiddenSize1, hyper_params.rnnHiddenSize, hyper_params.rnnHiddenSize, true, mem);
+		_seglayer_project.initial(hyper_params.segHiddenSize, hyper_params.hiddenSize2, hyper_params.hiddenSize2, mem);
+		_olayer_linear.initial(hyper_params.segLabelSize, hyper_params.segHiddenSize, false, mem);
 		_loss.initial(hyper_params.maxLabelLength, hyper_params.maxsegLen);
 		
 		return true;
