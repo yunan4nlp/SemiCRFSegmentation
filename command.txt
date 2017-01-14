@@ -5,3 +5,9 @@ cmake .. -DEIGEN3_INCLUDE_DIR=C:\eigen -DN3L_INCLUDE_DIR=D:\LibN3L-2.1
 -train E:\segpos1\dev.ctb60.nnpos -dev E:\segpos1\dev.ctb60.nnpos -test E:\segpos1\dev.ctb60.nnpos -option E:\segpos1\option.debug -l
 segFile = E:\segpos1\weibo.noface.pku.addUNKWord.50d.vect
 -train E:\segpos1\dev.ctb60.nnpos -dev E:\segpos1\dev.ctb60.nnpos -test E:\segpos1\dev.ctb60.nnpos -option E:\segpos1\option.debug -l
+
+
+-l -train E:\vs_workspace\normal2.1\SemiCRFSegmentation\demo_data\sample.txt -dev E:\vs_workspace\normal2.1\SemiCRFSegmentation\demo_data\sample.txt -test E:\vs_workspace\normal2.1\SemiCRFSegmentation\demo_data\sample.txt -model E:\vs_workspace\normal2.1\SemiCRFSegmentation\demo_data\model\model -option E:\vs_workspace\normal2.1\SemiCRFSegmentation\demo_data\option.debug
+
+
+-test E:\vs_workspace\normal2.1\SemiCRFSegmentation\demo_data\sample.txt -model E:\vs_workspace\normal2.1\SemiCRFSegmentation\demo_data\model\model

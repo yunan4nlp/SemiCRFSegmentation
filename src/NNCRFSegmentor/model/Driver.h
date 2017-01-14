@@ -62,6 +62,26 @@ public:
 		setUpdateParameters(_hyperparams.nnRegular, _hyperparams.adaAlpha, _hyperparams.adaEps);
 	}
 
+	inline void directInitial() {
+		if (!_modelparams.directInitial(_hyperparams, &aligned_mem)){
+			std::cout << "model parameter initialization Error, Please check!" << std::endl;
+			return;
+		}
+
+		_modelparams.exportModelParams(_ada);
+		_modelparams.exportCheckGradParams(_checkgrad);
+
+		_hyperparams.print();
+
+		_pcg = new ComputionGraph();
+		_pcg->createNodes(ComputionGraph::max_sentence_length, _modelparams.types.size());
+		_pcg->initial(_modelparams, _hyperparams, &aligned_mem);
+
+		std::cout << "allocated memory: " << aligned_mem.capacity << ", total required memory: " << aligned_mem.required << ", perc = " << aligned_mem.capacity*1.0 / aligned_mem.required << std::endl;
+
+		setUpdateParameters(_hyperparams.nnRegular, _hyperparams.adaAlpha, _hyperparams.adaEps);
+	}
+
 
 	inline dtype train(const vector<Example>& examples, int iter) {
 		_eval.reset();
@@ -130,9 +150,15 @@ public:
 		_checkgrad.check(this, examples, out.str());
 	}
 
-	void writeModel();
+	void saveModel(ofstream& os){
+		_hyperparams.saveModel(os);
+		_modelparams.saveModel(os);
+	}
 
-	void loadModel();
+	void loadModel(ifstream& is){
+		_hyperparams.loadModel(is);
+		_modelparams.loadModel(is);
+	}
 
 
 

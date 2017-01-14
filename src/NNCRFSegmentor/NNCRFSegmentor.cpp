@@ -441,6 +441,7 @@ int Segmentor::predict(const vector<Feature>& features, vector<string>& outputs)
 
 void Segmentor::test(const string& testFile, const string& outputFile, const string& modelFile) {
 	loadModelFile(modelFile);
+	m_driver.directInitial();
 	vector<Instance> testInsts;
 	m_pipe.readInstances(testFile, testInsts);
 
@@ -454,10 +455,10 @@ void Segmentor::test(const string& testFile, const string& outputFile, const str
 	for (int idx = 0; idx < testExamples.size(); idx++) {
 		vector<string> result_labels;
 		predict(testExamples[idx].m_features, result_labels);
-		if (m_options.seg)
-			testInsts[idx].SegEvaluate(result_labels, metric_test);
-		else
-			testInsts[idx].Evaluate(result_labels, metric_test);		
+//		if (m_options.seg)
+		testInsts[idx].SegEvaluate(result_labels, metric_test);
+//		else
+//			testInsts[idx].Evaluate(result_labels, metric_test);		
 		Instance curResultInst;
 		curResultInst.copyValuesFrom(testInsts[idx]);
 		curResultInst.assignLabel(result_labels);
@@ -465,6 +466,7 @@ void Segmentor::test(const string& testFile, const string& outputFile, const str
 	}
 	std::cout << "test:" << std::endl;
 	metric_test.print();
+	cout << metric_test.getAccuracy() << endl;
 
 	m_pipe.outputAllInstances(outputFile, testInstResults);
 
@@ -472,10 +474,25 @@ void Segmentor::test(const string& testFile, const string& outputFile, const str
 
 
 void Segmentor::loadModelFile(const string& inputModelFile) {
-
+	ifstream is(inputModelFile);
+	if (is.is_open()) {
+		m_driver.loadModel(is);
+		std::cout << "load model ok" << std::endl;
+		is.close();
+	}
+	else
+		std::cout << "model can't open" << std::endl;
 }
 
 void Segmentor::writeModelFile(const string& outputModelFile) {
+	ofstream os(outputModelFile);
+	if (os.is_open()){
+		m_driver.saveModel(os);
+		std::cout << "save model ok" << std::endl;
+	}
+	else
+		std::cout << "model can't save" << std::endl;
+
 
 }
 
@@ -509,7 +526,7 @@ int main(int argc, char* argv[]) {
 	else {
 		segmentor.test(testFile, outputFile, modelFile);
 	}
-
+	getchar();
 	//test(argv);
 	//ah.write_values(std::cout);
 }

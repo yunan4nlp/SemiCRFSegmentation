@@ -60,6 +60,30 @@ public:
 	}
 
 
+	bool directInitial(HyperParams& opts, AlignedMemoryPool* mem){
+
+		// some model parameters should be initialized outside
+		if (words.nVSize <= 0 || labelAlpha.size() <= 0){
+			return false;
+		}
+		opts.wordwindow = 2 * opts.wordcontext + 1;
+		opts.wordDim = words.nDim;
+		opts.unitsize = opts.wordDim;
+		opts.typeDims.clear();
+		for (int idx = 0; idx <types.size(); idx++){
+			if (types[idx].nVSize <= 0 || typeAlphas[idx].size() <= 0){
+				return false;
+			}
+			opts.typeDims.push_back(types[idx].nDim);
+			opts.unitsize += opts.typeDims[idx];
+		}
+		opts.labelSize = labelAlpha.size();
+		opts.inputsize = opts.wordwindow * opts.unitsize;
+		return true;
+	}
+
+
+
 	void exportModelParams(ModelUpdate& ada){
 		words.exportAdaParams(ada);
 		for (int idx = 0; idx < types.size(); idx++){
@@ -96,13 +120,77 @@ public:
 		checkgrad.add(&(loss.T), "loss.T");
 	}
 
-	// will add it later
-	void saveModel(){
+
+	void saveModel(ofstream& os) const{
+		wordAlpha.write(os);
+		words.save(os);
+
+		int type_alpha_size = typeAlphas.size();
+		os << type_alpha_size << endl;
+		for (int idx = 0; idx < type_alpha_size; idx++)
+			typeAlphas[idx].write(os);
+
+		int type_size = types.size();
+		os << type_size << endl;
+		for (int idx = 0; idx < type_size; idx++)
+			types[idx].save(os);  
+
+
+		left_lstm_project.save(os); 
+		right_lstm_project.save(os); 
+		tanh1_project.save(os); 
+		tanh2_project.save(os); 
+		tanh3_project.save(os); 
+		olayer_linear.save(os); 
+
+		labelAlpha.write(os); 
+
+		loss.T.save(os);
+		os << loss.labelSize << std::endl;
+		int buffer_size = loss.buffer.size();
+		os << buffer_size << std::endl;
+		for (int idx = 0; idx < buffer_size; idx++){
+			os << loss.buffer[idx] << std::endl;
+		}
+		os << loss.eps << std::endl;
 
 	}
 
-	void loadModel(const string& inFile){
+	void loadModel(ifstream& is, AlignedMemoryPool* mem = NULL){
+		wordAlpha.read(is);
+		words.load(is, &wordAlpha, mem);
 
+		int type_alpha_size;
+		is >> type_alpha_size;
+		typeAlphas.resize(type_alpha_size);
+		for (int idx = 0; idx < type_alpha_size; idx++)
+			typeAlphas[idx].read(is);
+
+		int type_size;
+		is >> type_size;
+		types.resize(type_size);
+		for (int idx = 0; idx < type_size; idx++)
+			types[idx].load(is, &typeAlphas[idx], mem);  
+
+
+		left_lstm_project.load(is); 
+		right_lstm_project.load(is); 
+		tanh1_project.load(is); 
+		tanh2_project.load(is); 
+		tanh3_project.load(is); 
+		olayer_linear.load(is); 
+
+		labelAlpha.read(is); 
+
+		loss.T.load(is);
+		is >> loss.labelSize;
+		int buffer_size;
+		is >> buffer_size;
+		loss.buffer.resize(buffer_size);
+		for (int idx = 0; idx < buffer_size; idx++){
+			is >> loss.buffer[idx];
+		}
+		is >> loss.eps;
 	}
 
 };
