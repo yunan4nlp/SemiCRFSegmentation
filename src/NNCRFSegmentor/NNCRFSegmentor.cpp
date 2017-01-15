@@ -526,7 +526,6 @@ int main(int argc, char* argv[]) {
 	else {
 		segmentor.test(testFile, outputFile, modelFile);
 	}
-	getchar();
 	//test(argv);
 	//ah.write_values(std::cout);
 }
