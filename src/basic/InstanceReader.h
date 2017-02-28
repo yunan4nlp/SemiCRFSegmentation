@@ -41,7 +41,7 @@ public:
 			m_instance.labels[i] = vecInfo[veclength - 1];
 			m_instance.words[i] = vecInfo[0];
 			for (int j = 1; j < veclength - 1; j++) {
-				if (is_startwith(vecInfo[j], "[S]"))
+				if (is_startwith(vecInfo[j], "[S"))
 					m_instance.sparsefeatures[i].push_back(vecInfo[j]);
 				if (is_startwith(vecInfo[j], "[C]"))
 					m_instance.charfeatures[i].push_back(vecInfo[j]);

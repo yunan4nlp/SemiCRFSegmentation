@@ -1,5 +1,5 @@
 cmake .. -DEIGEN3_INCLUDE_DIR=/c/eigen/ -DN3L_INCLUDE_DIR=/d/github/LibN3L-2.0/
-cmake .. -DEIGEN3_INCLUDE_DIR=C:\eigen -DN3L_INCLUDE_DIR=D:\LibN3L-2.1
+cmake .. -DEIGEN3_INCLUDE_DIR=C:\eigen -DN3L_INCLUDE_DIR=D:\LibN3L-2.0
 
 -l -train D:\AAAI2017\segpos\train.ctb60.nnpos -dev D:\AAAI2017\segpos\dev.ctb60.nnpos -test D:\AAAI2017\segpos\test.ctb60.nnpos -option D:\AAAI2017\segpos\option.debug
 -train E:\segpos1\dev.ctb60.nnpos -dev E:\segpos1\dev.ctb60.nnpos -test E:\segpos1\dev.ctb60.nnpos -option E:\segpos1\option.debug -l
@@ -11,3 +11,6 @@ segFile = E:\segpos1\weibo.noface.pku.addUNKWord.50d.vect
 
 
 -test E:\vs_workspace\normal2.1\SemiCRFSegmentation\demo_data\sample.txt -model E:\vs_workspace\normal2.1\SemiCRFSegmentation\demo_data\model\model
+
+
+-l -train wmq_data\data\example\example.txt -dev wmq_data\data\example\example.txt -test wmq_data\data\example\example.txt -option wmq_data\option\option.debug

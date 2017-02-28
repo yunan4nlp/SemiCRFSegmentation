@@ -1,0 +1,480 @@
+有时 [C]有 [C]时 [S0]有时 [S1]<s>#有时 [S2]有时#接 [S3]<s>#<s> [S4]接#电话 [S5]<s>#有时#接 [S6]d [S7]null#d [S8]d#v [S9]null#null [S10]v#n [S11]null#d#v [S12]有时#d [T1]d O
+接 [C]接 [S0]接 [S1]有时#接 [S2]接#电话 [S3]<s>#有时 [S4]电话#会 [S5]有时#接#电话 [S6]v [S7]d#v [S8]v#n [S9]null#d [S10]n#v [S11]d#v#n [S12]接#v [T1]v B-A
+电话 [C]电 [C]话 [S0]电话 [S1]接#电话 [S2]电话#会 [S3]有时#接 [S4]会#黑屏 [S5]接#电话#会 [S6]n [S7]v#n [S8]n#v [S9]d#v [S10]v#v [S11]v#n#v [S12]电话#n [T1]n E-A
+会 [C]会 [S0]会 [S1]电话#会 [S2]会#黑屏 [S3]接#电话 [S4]黑屏#， [S5]电话#会#黑屏 [S6]v [S7]n#v [S8]v#v [S9]v#n [S10]v#wp [S11]n#v#v [S12]会#v [T1]v B-E
+黑屏 [C]黑 [C]屏 [S0]黑屏 [S1]会#黑屏 [S2]黑屏#， [S3]电话#会 [S4]，#貌似 [S5]会#黑屏#， [S6]v [S7]v#v [S8]v#wp [S9]n#v [S10]wp#v [S11]v#v#wp [S12]黑屏#v [T1]v E-E
+， [C]， [S0]， [S1]黑屏#， [S2]，#貌似 [S3]会#黑屏 [S4]貌似#是 [S5]黑屏#，#貌似 [S6]wp [S7]v#wp [S8]wp#v [S9]v#v [S10]v#v [S11]v#wp#v [S12]，#wp [T1]wp O
+貌似 [C]貌 [C]似 [S0]貌似 [S1]，#貌似 [S2]貌似#是 [S3]黑屏#， [S4]是#贴膜 [S5]，#貌似#是 [S6]v [S7]wp#v [S8]v#v [S9]v#wp [S10]v#v [S11]wp#v#v [S12]貌似#v [T1]v B-Q
+是 [C]是 [S0]是 [S1]貌似#是 [S2]是#贴膜 [S3]，#貌似 [S4]贴膜#把 [S5]貌似#是#贴膜 [S6]v [S7]v#v [S8]v#v [S9]wp#v [S10]v#p [S11]v#v#v [S12]是#v [T1]v M-Q
+贴膜 [C]贴 [C]膜 [S0]贴膜 [S1]是#贴膜 [S2]贴膜#把 [S3]貌似#是 [S4]把#距离 [S5]是#贴膜#把 [S6]v [S7]v#v [S8]v#p [S9]v#v [S10]p#n [S11]v#v#p [S12]贴膜#v [T1]v M-Q
+把 [C]把 [S0]把 [S1]贴膜#把 [S2]把#距离 [S3]是#贴膜 [S4]距离#感应器 [S5]贴膜#把#距离 [S6]p [S7]v#p [S8]p#n [S9]v#v [S10]n#n [S11]v#p#n [S12]把#p [T1]p M-Q
+距离 [C]距 [C]离 [S0]距离 [S1]把#距离 [S2]距离#感应器 [S3]贴膜#把 [S4]感应器#挡 [S5]把#距离#感应器 [S6]n [S7]p#n [S8]n#n [S9]v#p [S10]n#v [S11]p#n#n [S12]距离#n [T1]n M-Q
+感应器 [C]感 [C]应 [C]器 [S0]感应器 [S1]距离#感应器 [S2]感应器#挡 [S3]把#距离 [S4]挡#到 [S5]距离#感应器#挡 [S6]n [S7]n#n [S8]n#v [S9]p#n [S10]v#v [S11]n#n#v [S12]感应器#n [T1]n M-Q
+挡 [C]挡 [S0]挡 [S1]感应器#挡 [S2]挡#到 [S3]距离#感应器 [S4]到#了 [S5]感应器#挡#到 [S6]v [S7]n#v [S8]v#v [S9]n#n [S10]v#u [S11]n#v#v [S12]挡#v [T1]v M-Q
+到 [C]到 [S0]到 [S1]挡#到 [S2]到#了 [S3]感应器#挡 [S4]了#， [S5]挡#到#了 [S6]v [S7]v#v [S8]v#u [S9]n#v [S10]u#wp [S11]v#v#u [S12]到#v [T1]v M-Q
+了 [C]了 [S0]了 [S1]到#了 [S2]了#， [S3]挡#到 [S4]，#可以 [S5]到#了#， [S6]u [S7]v#u [S8]u#wp [S9]v#v [S10]wp#v [S11]v#u#wp [S12]了#u [T1]u E-Q
+， [C]， [S0]， [S1]了#， [S2]，#可以 [S3]到#了 [S4]可以#试 [S5]了#，#可以 [S6]wp [S7]u#wp [S8]wp#v [S9]v#u [S10]v#v [S11]u#wp#v [S12]，#wp [T1]wp O
+可以 [C]可 [C]以 [S0]可以 [S1]，#可以 [S2]可以#试 [S3]了#， [S4]试#着 [S5]，#可以#试 [S6]v [S7]wp#v [S8]v#v [S9]u#wp [S10]v#u [S11]wp#v#v [S12]可以#v [T1]v B-Q
+试 [C]试 [S0]试 [S1]可以#试 [S2]试#着 [S3]，#可以 [S4]着#把 [S5]可以#试#着 [S6]v [S7]v#v [S8]v#u [S9]wp#v [S10]u#p [S11]v#v#u [S12]试#v [T1]v M-Q
+着 [C]着 [S0]着 [S1]试#着 [S2]着#把 [S3]可以#试 [S4]把#膜切 [S5]试#着#把 [S6]u [S7]v#u [S8]u#p [S9]v#v [S10]p#a [S11]v#u#p [S12]着#u [T1]u M-Q
+把 [C]把 [S0]把 [S1]着#把 [S2]把#膜切 [S3]试#着 [S4]膜切#了 [S5]着#把#膜切 [S6]p [S7]u#p [S8]p#a [S9]v#u [S10]a#u [S11]u#p#a [S12]把#p [T1]p M-Q
+膜切 [C]膜 [C]切 [S0]膜切 [S1]把#膜切 [S2]膜切#了 [S3]着#把 [S4]了#。 [S5]把#膜切#了 [S6]a [S7]p#a [S8]a#u [S9]u#p [S10]u#wp [S11]p#a#u [S12]膜切#a [T1]a M-Q
+了 [C]了 [S0]了 [S1]膜切#了 [S2]了#。 [S3]把#膜切 [S4]。#</s> [S5]膜切#了#。 [S6]u [S7]a#u [S8]u#wp [S9]p#a [S10]wp#null [S11]a#u#wp [S12]了#u [T1]u E-Q
+。 [C]。 [S0]。 [S1]了#。 [S2]。#</s> [S3]膜切#了 [S4]</s>#</s> [S5]了#。#</s> [S6]wp [S7]u#wp [S8]wp#null [S9]a#u [S10]null#null [S11]u#wp#null [S12]。#wp [T1]wp O
+
+用 [C]用 [S0]用 [S1]<s>#用 [S2]用#个 [S3]<s>#<s> [S4]个#一 [S5]<s>#用#个 [S6]v [S7]null#v [S8]v#q [S9]null#null [S10]q#m [S11]null#v#q [S12]用#v [T1]v O
+个 [C]个 [S0]个 [S1]用#个 [S2]个#一 [S3]<s>#用 [S4]一#年 [S5]用#个#一 [S6]q [S7]v#q [S8]q#m [S9]null#v [S10]m#q [S11]v#q#m [S12]个#q [T1]q O
+一 [C]一 [S0]一 [S1]个#一 [S2]一#年 [S3]用#个 [S4]年#多 [S5]个#一#年 [S6]m [S7]q#m [S8]m#q [S9]v#q [S10]q#m [S11]q#m#q [S12]一#m [T1]m O
+年 [C]年 [S0]年 [S1]一#年 [S2]年#多 [S3]个#一 [S4]多#了 [S5]一#年#多 [S6]q [S7]m#q [S8]q#m [S9]q#m [S10]m#u [S11]m#q#m [S12]年#q [T1]q O
+多 [C]多 [S0]多 [S1]年#多 [S2]多#了 [S3]一#年 [S4]了#， [S5]年#多#了 [S6]m [S7]q#m [S8]m#u [S9]m#q [S10]u#wp [S11]q#m#u [S12]多#m [T1]m O
+了 [C]了 [S0]了 [S1]多#了 [S2]了#， [S3]年#多 [S4]，#最近 [S5]多#了#， [S6]u [S7]m#u [S8]u#wp [S9]q#m [S10]wp#nt [S11]m#u#wp [S12]了#u [T1]u O
+， [C]， [S0]， [S1]了#， [S2]，#最近 [S3]多#了 [S4]最近#老是 [S5]了#，#最近 [S6]wp [S7]u#wp [S8]wp#nt [S9]m#u [S10]nt#d [S11]u#wp#nt [S12]，#wp [T1]wp O
+最近 [C]最 [C]近 [S0]最近 [S1]，#最近 [S2]最近#老是 [S3]了#， [S4]老是#出现 [S5]，#最近#老是 [S6]nt [S7]wp#nt [S8]nt#d [S9]u#wp [S10]d#v [S11]wp#nt#d [S12]最近#nt [T1]nt O
+老是 [C]老 [C]是 [S0]老是 [S1]最近#老是 [S2]老是#出现 [S3]，#最近 [S4]出现#花屏 [S5]最近#老是#出现 [S6]d [S7]nt#d [S8]d#v [S9]wp#nt [S10]v#n [S11]nt#d#v [S12]老是#d [T1]d B-E
+出现 [C]出 [C]现 [S0]出现 [S1]老是#出现 [S2]出现#花屏 [S3]最近#老是 [S4]花屏#现象 [S5]老是#出现#花屏 [S6]v [S7]d#v [S8]v#n [S9]nt#d [S10]n#n [S11]d#v#n [S12]出现#v [T1]v M-E
+花屏 [C]花 [C]屏 [S0]花屏 [S1]出现#花屏 [S2]花屏#现象 [S3]老是#出现 [S4]现象#， [S5]出现#花屏#现象 [S6]n [S7]v#n [S8]n#n [S9]d#v [S10]n#wp [S11]v#n#n [S12]花屏#n [T1]n M-E
+现象 [C]现 [C]象 [S0]现象 [S1]花屏#现象 [S2]现象#， [S3]出现#花屏 [S4]，#上网 [S5]花屏#现象#， [S6]n [S7]n#n [S8]n#wp [S9]v#n [S10]wp#v [S11]n#n#wp [S12]现象#n [T1]n E-E
+， [C]， [S0]， [S1]现象#， [S2]，#上网 [S3]花屏#现象 [S4]上网#查 [S5]现象#，#上网 [S6]wp [S7]n#wp [S8]wp#v [S9]n#n [S10]v#v [S11]n#wp#v [S12]，#wp [T1]wp O
+上网 [C]上 [C]网 [S0]上网 [S1]，#上网 [S2]上网#查 [S3]现象#， [S4]查#了 [S5]，#上网#查 [S6]v [S7]wp#v [S8]v#v [S9]n#wp [S10]v#u [S11]wp#v#v [S12]上网#v [T1]v B-Q
+查 [C]查 [S0]查 [S1]上网#查 [S2]查#了 [S3]，#上网 [S4]了#下 [S5]上网#查#了 [S6]v [S7]v#v [S8]v#u [S9]wp#v [S10]u#nd [S11]v#v#u [S12]查#v [T1]v M-Q
+了 [C]了 [S0]了 [S1]查#了 [S2]了#下 [S3]上网#查 [S4]下#才 [S5]查#了#下 [S6]u [S7]v#u [S8]u#nd [S9]v#v [S10]nd#d [S11]v#u#nd [S12]了#u [T1]u M-Q
+下 [C]下 [S0]下 [S1]了#下 [S2]下#才 [S3]查#了 [S4]才#知道 [S5]了#下#才 [S6]nd [S7]u#nd [S8]nd#d [S9]v#u [S10]d#v [S11]u#nd#d [S12]下#nd [T1]nd M-Q
+才 [C]才 [S0]才 [S1]下#才 [S2]才#知道 [S3]了#下 [S4]知道#是 [S5]下#才#知道 [S6]d [S7]nd#d [S8]d#v [S9]u#nd [S10]v#v [S11]nd#d#v [S12]才#d [T1]d M-Q
+知道 [C]知 [C]道 [S0]知道 [S1]才#知道 [S2]知道#是 [S3]下#才 [S4]是#硬件 [S5]才#知道#是 [S6]v [S7]d#v [S8]v#v [S9]nd#d [S10]v#n [S11]d#v#v [S12]知道#v [T1]v M-Q
+是 [C]是 [S0]是 [S1]知道#是 [S2]是#硬件 [S3]才#知道 [S4]硬件#问题 [S5]知道#是#硬件 [S6]v [S7]v#v [S8]v#n [S9]d#v [S10]n#n [S11]v#v#n [S12]是#v [T1]v M-Q
+硬件 [C]硬 [C]件 [S0]硬件 [S1]是#硬件 [S2]硬件#问题 [S3]知道#是 [S4]问题#， [S5]是#硬件#问题 [S6]n [S7]v#n [S8]n#n [S9]v#v [S10]n#wp [S11]v#n#n [S12]硬件#n [T1]n M-Q
+问题 [C]问 [C]题 [S0]问题 [S1]硬件#问题 [S2]问题#， [S3]是#硬件 [S4]，#貌似 [S5]硬件#问题#， [S6]n [S7]n#n [S8]n#wp [S9]v#n [S10]wp#v [S11]n#n#wp [S12]问题#n [T1]n M-Q
+， [C]， [S0]， [S1]问题#， [S2]，#貌似 [S3]硬件#问题 [S4]貌似#温度 [S5]问题#，#貌似 [S6]wp [S7]n#wp [S8]wp#v [S9]n#n [S10]v#n [S11]n#wp#v [S12]，#wp [T1]wp M-Q
+貌似 [C]貌 [C]似 [S0]貌似 [S1]，#貌似 [S2]貌似#温度 [S3]问题#， [S4]温度#太 [S5]，#貌似#温度 [S6]v [S7]wp#v [S8]v#n [S9]n#wp [S10]n#d [S11]wp#v#n [S12]貌似#v [T1]v M-Q
+温度 [C]温 [C]度 [S0]温度 [S1]貌似#温度 [S2]温度#太 [S3]，#貌似 [S4]太#低 [S5]貌似#温度#太 [S6]n [S7]v#n [S8]n#d [S9]wp#v [S10]d#a [S11]v#n#d [S12]温度#n [T1]n M-Q
+太 [C]太 [S0]太 [S1]温度#太 [S2]太#低 [S3]貌似#温度 [S4]低#了 [S5]温度#太#低 [S6]d [S7]n#d [S8]d#a [S9]v#n [S10]a#u [S11]n#d#a [S12]太#d [T1]d M-Q
+低 [C]低 [S0]低 [S1]太#低 [S2]低#了 [S3]温度#太 [S4]了#容易 [S5]太#低#了 [S6]a [S7]d#a [S8]a#u [S9]n#d [S10]u#a [S11]d#a#u [S12]低#a [T1]a M-Q
+了 [C]了 [S0]了 [S1]低#了 [S2]了#容易 [S3]太#低 [S4]容易#出现 [S5]低#了#容易 [S6]u [S7]a#u [S8]u#a [S9]d#a [S10]a#v [S11]a#u#a [S12]了#u [T1]u E-Q
+容易 [C]容 [C]易 [S0]容易 [S1]了#容易 [S2]容易#出现 [S3]低#了 [S4]出现#花屏 [S5]了#容易#出现 [S6]a [S7]u#a [S8]a#v [S9]a#u [S10]v#n [S11]u#a#v [S12]容易#a [T1]a O
+出现 [C]出 [C]现 [S0]出现 [S1]容易#出现 [S2]出现#花屏 [S3]了#容易 [S4]花屏#， [S5]容易#出现#花屏 [S6]v [S7]a#v [S8]v#n [S9]u#a [S10]n#wp [S11]a#v#n [S12]出现#v [T1]v O
+花屏 [C]花 [C]屏 [S0]花屏 [S1]出现#花屏 [S2]花屏#， [S3]容易#出现 [S4]，#冬天 [S5]出现#花屏#， [S6]n [S7]v#n [S8]n#wp [S9]a#v [S10]wp#nt [S11]v#n#wp [S12]花屏#n [T1]n O
+， [C]， [S0]， [S1]花屏#， [S2]，#冬天 [S3]出现#花屏 [S4]冬天#还 [S5]花屏#，#冬天 [S6]wp [S7]n#wp [S8]wp#nt [S9]v#n [S10]nt#d [S11]n#wp#nt [S12]，#wp [T1]wp O
+冬天 [C]冬 [C]天 [S0]冬天 [S1]，#冬天 [S2]冬天#还 [S3]花屏#， [S4]还#咋 [S5]，#冬天#还 [S6]nt [S7]wp#nt [S8]nt#d [S9]n#wp [S10]d#d [S11]wp#nt#d [S12]冬天#nt [T1]nt O
+还 [C]还 [S0]还 [S1]冬天#还 [S2]还#咋 [S3]，#冬天 [S4]咋#用 [S5]冬天#还#咋 [S6]d [S7]nt#d [S8]d#d [S9]wp#nt [S10]d#v [S11]nt#d#d [S12]还#d [T1]d O
+咋 [C]咋 [S0]咋 [S1]还#咋 [S2]咋#用 [S3]冬天#还 [S4]用#啊 [S5]还#咋#用 [S6]d [S7]d#d [S8]d#v [S9]nt#d [S10]v#u [S11]d#d#v [S12]咋#d [T1]d O
+用 [C]用 [S0]用 [S1]咋#用 [S2]用#啊 [S3]还#咋 [S4]啊#？ [S5]咋#用#啊 [S6]v [S7]d#v [S8]v#u [S9]d#d [S10]u#wp [S11]d#v#u [S12]用#v [T1]v O
+啊 [C]啊 [S0]啊 [S1]用#啊 [S2]啊#？ [S3]咋#用 [S4]？#</s> [S5]用#啊#？ [S6]u [S7]v#u [S8]u#wp [S9]d#v [S10]wp#null [S11]v#u#wp [S12]啊#u [T1]u O
+？ [C]？ [S0]？ [S1]啊#？ [S2]？#</s> [S3]用#啊 [S4]</s>#</s> [S5]啊#？#</s> [S6]wp [S7]u#wp [S8]wp#null [S9]v#u [S10]null#null [S11]u#wp#null [S12]？#wp [T1]wp O
+
+为什么 [C]为 [C]什 [C]么 [S0]为什么 [S1]<s>#为什么 [S2]为什么#后壳 [S3]<s>#<s> [S4]后壳#会 [S5]<s>#为什么#后壳 [S6]r [S7]null#r [S8]r#n [S9]null#null [S10]n#v [S11]null#r#n [S12]为什么#r [T1]r O
+后壳 [C]后 [C]壳 [S0]后壳 [S1]为什么#后壳 [S2]后壳#会 [S3]<s>#为什么 [S4]会#氧化 [S5]为什么#后壳#会 [S6]n [S7]r#n [S8]n#v [S9]null#r [S10]v#v [S11]r#n#v [S12]后壳#n [T1]n S-A
+会 [C]会 [S0]会 [S1]后壳#会 [S2]会#氧化 [S3]为什么#后壳 [S4]氧化#， [S5]后壳#会#氧化 [S6]v [S7]n#v [S8]v#v [S9]r#n [S10]v#wp [S11]n#v#v [S12]会#v [T1]v B-E
+氧化 [C]氧 [C]化 [S0]氧化 [S1]会#氧化 [S2]氧化#， [S3]后壳#会 [S4]，#刚 [S5]会#氧化#， [S6]v [S7]v#v [S8]v#wp [S9]n#v [S10]wp#d [S11]v#v#wp [S12]氧化#v [T1]v E-E
+， [C]， [S0]， [S1]氧化#， [S2]，#刚 [S3]会#氧化 [S4]刚#买 [S5]氧化#，#刚 [S6]wp [S7]v#wp [S8]wp#d [S9]v#v [S10]d#v [S11]v#wp#d [S12]，#wp [T1]wp O
+刚 [C]刚 [S0]刚 [S1]，#刚 [S2]刚#买 [S3]氧化#， [S4]买#不 [S5]，#刚#买 [S6]d [S7]wp#d [S8]d#v [S9]v#wp [S10]v#d [S11]wp#d#v [S12]刚#d [T1]d B-Q
+买 [C]买 [S0]买 [S1]刚#买 [S2]买#不 [S3]，#刚 [S4]不#到 [S5]刚#买#不 [S6]v [S7]d#v [S8]v#d [S9]wp#d [S10]d#v [S11]d#v#d [S12]买#v [T1]v M-Q
+不 [C]不 [S0]不 [S1]买#不 [S2]不#到 [S3]刚#买 [S4]到#三 [S5]买#不#到 [S6]d [S7]v#d [S8]d#v [S9]d#v [S10]v#m [S11]v#d#v [S12]不#d [T1]d M-Q
+到 [C]到 [S0]到 [S1]不#到 [S2]到#三 [S3]买#不 [S4]三#个 [S5]不#到#三 [S6]v [S7]d#v [S8]v#m [S9]v#d [S10]m#q [S11]d#v#m [S12]到#v [T1]v M-Q
+三 [C]三 [S0]三 [S1]到#三 [S2]三#个 [S3]不#到 [S4]个#月 [S5]到#三#个 [S6]m [S7]v#m [S8]m#q [S9]d#v [S10]q#n [S11]v#m#q [S12]三#m [T1]m M-Q
+个 [C]个 [S0]个 [S1]三#个 [S2]个#月 [S3]到#三 [S4]月#后 [S5]三#个#月 [S6]q [S7]m#q [S8]q#n [S9]v#m [S10]n#nd [S11]m#q#n [S12]个#q [T1]q M-Q
+月 [C]月 [S0]月 [S1]个#月 [S2]月#后 [S3]三#个 [S4]后#壳 [S5]个#月#后 [S6]n [S7]q#n [S8]n#nd [S9]m#q [S10]nd#n [S11]q#n#nd [S12]月#n [T1]n M-Q
+后 [C]后 [S0]后 [S1]月#后 [S2]后#壳 [S3]个#月 [S4]壳#局部 [S5]月#后#壳 [S6]nd [S7]n#nd [S8]nd#n [S9]q#n [S10]n#n [S11]n#nd#n [S12]后#nd [T1]nd M-Q
+壳 [C]壳 [S0]壳 [S1]后#壳 [S2]壳#局部 [S3]月#后 [S4]局部#就 [S5]后#壳#局部 [S6]n [S7]nd#n [S8]n#n [S9]n#nd [S10]n#d [S11]nd#n#n [S12]壳#n [T1]n M-Q
+局部 [C]局 [C]部 [S0]局部 [S1]壳#局部 [S2]局部#就 [S3]后#壳 [S4]就#有 [S5]壳#局部#就 [S6]n [S7]n#n [S8]n#d [S9]nd#n [S10]d#v [S11]n#n#d [S12]局部#n [T1]n M-Q
+就 [C]就 [S0]就 [S1]局部#就 [S2]就#有 [S3]壳#局部 [S4]有#小 [S5]局部#就#有 [S6]d [S7]n#d [S8]d#v [S9]n#n [S10]v#a [S11]n#d#v [S12]就#d [T1]d M-Q
+有 [C]有 [S0]有 [S1]就#有 [S2]有#小 [S3]局部#就 [S4]小#点 [S5]就#有#小 [S6]v [S7]d#v [S8]v#a [S9]n#d [S10]a#q [S11]d#v#a [S12]有#v [T1]v M-Q
+小 [C]小 [S0]小 [S1]有#小 [S2]小#点 [S3]就#有 [S4]点#， [S5]有#小#点 [S6]a [S7]v#a [S8]a#q [S9]d#v [S10]q#wp [S11]v#a#q [S12]小#a [T1]a M-Q
+点 [C]点 [S0]点 [S1]小#点 [S2]点#， [S3]有#小 [S4]，#网上 [S5]小#点#， [S6]q [S7]a#q [S8]q#wp [S9]v#a [S10]wp#nl [S11]a#q#wp [S12]点#q [T1]q E-Q
+， [C]， [S0]， [S1]点#， [S2]，#网上 [S3]小#点 [S4]网上#查 [S5]点#，#网上 [S6]wp [S7]q#wp [S8]wp#nl [S9]a#q [S10]nl#v [S11]q#wp#nl [S12]，#wp [T1]wp O
+网上 [C]网 [C]上 [S0]网上 [S1]，#网上 [S2]网上#查 [S3]点#， [S4]查#了 [S5]，#网上#查 [S6]nl [S7]wp#nl [S8]nl#v [S9]q#wp [S10]v#u [S11]wp#nl#v [S12]网上#nl [T1]nl O
+查 [C]查 [S0]查 [S1]网上#查 [S2]查#了 [S3]，#网上 [S4]了#才 [S5]网上#查#了 [S6]v [S7]nl#v [S8]v#u [S9]wp#nl [S10]u#d [S11]nl#v#u [S12]查#v [T1]v O
+了 [C]了 [S0]了 [S1]查#了 [S2]了#才 [S3]网上#查 [S4]才#知道 [S5]查#了#才 [S6]u [S7]v#u [S8]u#d [S9]nl#v [S10]d#v [S11]v#u#d [S12]了#u [T1]u O
+才 [C]才 [S0]才 [S1]了#才 [S2]才#知道 [S3]查#了 [S4]知道#是 [S5]了#才#知道 [S6]d [S7]u#d [S8]d#v [S9]v#u [S10]v#v [S11]u#d#v [S12]才#d [T1]d O
+知道 [C]知 [C]道 [S0]知道 [S1]才#知道 [S2]知道#是 [S3]了#才 [S4]是#什么 [S5]才#知道#是 [S6]v [S7]d#v [S8]v#v [S9]u#d [S10]v#r [S11]d#v#v [S12]知道#v [T1]v O
+是 [C]是 [S0]是 [S1]知道#是 [S2]是#什么 [S3]才#知道 [S4]什么#新 [S5]知道#是#什么 [S6]v [S7]v#v [S8]v#r [S9]d#v [S10]r#a [S11]v#v#r [S12]是#v [T1]v B-Q
+什么 [C]什 [C]么 [S0]什么 [S1]是#什么 [S2]什么#新 [S3]知道#是 [S4]新#材料 [S5]是#什么#新 [S6]r [S7]v#r [S8]r#a [S9]v#v [S10]a#n [S11]v#r#a [S12]什么#r [T1]r M-Q
+新 [C]新 [S0]新 [S1]什么#新 [S2]新#材料 [S3]是#什么 [S4]材料#会 [S5]什么#新#材料 [S6]a [S7]r#a [S8]a#n [S9]v#r [S10]n#v [S11]r#a#n [S12]新#a [T1]a M-Q
+材料 [C]材 [C]料 [S0]材料 [S1]新#材料 [S2]材料#会 [S3]什么#新 [S4]会#氧化 [S5]新#材料#会 [S6]n [S7]a#n [S8]n#v [S9]r#a [S10]v#v [S11]a#n#v [S12]材料#n [T1]n M-Q
+会 [C]会 [S0]会 [S1]材料#会 [S2]会#氧化 [S3]新#材料 [S4]氧化#， [S5]材料#会#氧化 [S6]v [S7]n#v [S8]v#v [S9]a#n [S10]v#wp [S11]n#v#v [S12]会#v [T1]v M-Q
+氧化 [C]氧 [C]化 [S0]氧化 [S1]会#氧化 [S2]氧化#， [S3]材料#会 [S4]，#晕 [S5]会#氧化#， [S6]v [S7]v#v [S8]v#wp [S9]n#v [S10]wp#i [S11]v#v#wp [S12]氧化#v [T1]v E-Q
+， [C]， [S0]， [S1]氧化#， [S2]，#晕 [S3]会#氧化 [S4]晕#。 [S5]氧化#，#晕 [S6]wp [S7]v#wp [S8]wp#i [S9]v#v [S10]i#wp [S11]v#wp#i [S12]，#wp [T1]wp O
+晕 [C]晕 [S0]晕 [S1]，#晕 [S2]晕#。 [S3]氧化#， [S4]。#</s> [S5]，#晕#。 [S6]i [S7]wp#i [S8]i#wp [S9]v#wp [S10]wp#null [S11]wp#i#wp [S12]晕#i [T1]i O
+。 [C]。 [S0]。 [S1]晕#。 [S2]。#</s> [S3]，#晕 [S4]</s>#</s> [S5]晕#。#</s> [S6]wp [S7]i#wp [S8]wp#null [S9]wp#i [S10]null#null [S11]i#wp#null [S12]。#wp [T1]wp O
+
+总是 [C]总 [C]是 [S0]总是 [S1]<s>#总是 [S2]总是#出现 [S3]<s>#<s> [S4]出现#桌面 [S5]<s>#总是#出现 [S6]d [S7]null#d [S8]d#v [S9]null#null [S10]v#n [S11]null#d#v [S12]总是#d [T1]d B-Q
+出现 [C]出 [C]现 [S0]出现 [S1]总是#出现 [S2]出现#桌面 [S3]<s>#总是 [S4]桌面#无法 [S5]总是#出现#桌面 [S6]v [S7]d#v [S8]v#n [S9]null#d [S10]n#v [S11]d#v#n [S12]出现#v [T1]v M-Q
+桌面 [C]桌 [C]面 [S0]桌面 [S1]出现#桌面 [S2]桌面#无法 [S3]总是#出现 [S4]无法#启动 [S5]出现#桌面#无法 [S6]n [S7]v#n [S8]n#v [S9]d#v [S10]v#v [S11]v#n#v [S12]桌面#n [T1]n M-Q
+无法 [C]无 [C]法 [S0]无法 [S1]桌面#无法 [S2]无法#启动 [S3]出现#桌面 [S4]启动#， [S5]桌面#无法#启动 [S6]v [S7]n#v [S8]v#v [S9]v#n [S10]v#wp [S11]n#v#v [S12]无法#v [T1]v M-Q
+启动 [C]启 [C]动 [S0]启动 [S1]无法#启动 [S2]启动#， [S3]桌面#无法 [S4]，#导致 [S5]无法#启动#， [S6]v [S7]v#v [S8]v#wp [S9]n#v [S10]wp#v [S11]v#v#wp [S12]启动#v [T1]v M-Q
+， [C]， [S0]， [S1]启动#， [S2]，#导致 [S3]无法#启动 [S4]导致#系统 [S5]启动#，#导致 [S6]wp [S7]v#wp [S8]wp#v [S9]v#v [S10]v#n [S11]v#wp#v [S12]，#wp [T1]wp M-Q
+导致 [C]导 [C]致 [S0]导致 [S1]，#导致 [S2]导致#系统 [S3]启动#， [S4]系统#瘫痪 [S5]，#导致#系统 [S6]v [S7]wp#v [S8]v#n [S9]v#wp [S10]n#v [S11]wp#v#n [S12]导致#v [T1]v E-Q
+系统 [C]系 [C]统 [S0]系统 [S1]导致#系统 [S2]系统#瘫痪 [S3]，#导致 [S4]瘫痪#</s> [S5]导致#系统#瘫痪 [S6]n [S7]v#n [S8]n#v [S9]wp#v [S10]v#null [S11]v#n#v [S12]系统#n [T1]n S-A
+瘫痪 [C]瘫 [C]痪 [S0]瘫痪 [S1]系统#瘫痪 [S2]瘫痪#</s> [S3]导致#系统 [S4]</s>#</s> [S5]系统#瘫痪#</s> [S6]v [S7]n#v [S8]v#null [S9]v#n [S10]null#null [S11]n#v#null [S12]瘫痪#v [T1]v S-E
+
+系统 [C]系 [C]统 [S0]系统 [S1]<s>#系统 [S2]系统#运行 [S3]<s>#<s> [S4]运行#内存 [S5]<s>#系统#运行 [S6]n [S7]null#n [S8]n#v [S9]null#null [S10]v#n [S11]null#n#v [S12]系统#n [T1]n O
+运行 [C]运 [C]行 [S0]运行 [S1]系统#运行 [S2]运行#内存 [S3]<s>#系统 [S4]内存#占用 [S5]系统#运行#内存 [S6]v [S7]n#v [S8]v#n [S9]null#n [S10]n#v [S11]n#v#n [S12]运行#v [T1]v O
+内存 [C]内 [C]存 [S0]内存 [S1]运行#内存 [S2]内存#占用 [S3]系统#运行 [S4]占用#太 [S5]运行#内存#占用 [S6]n [S7]v#n [S8]n#v [S9]n#v [S10]v#d [S11]v#n#v [S12]内存#n [T1]n S-A
+占用 [C]占 [C]用 [S0]占用 [S1]内存#占用 [S2]占用#太 [S3]运行#内存 [S4]太#高 [S5]内存#占用#太 [S6]v [S7]n#v [S8]v#d [S9]v#n [S10]d#a [S11]n#v#d [S12]占用#v [T1]v B-E
+太 [C]太 [S0]太 [S1]占用#太 [S2]太#高 [S3]内存#占用 [S4]高#， [S5]占用#太#高 [S6]d [S7]v#d [S8]d#a [S9]n#v [S10]a#wp [S11]v#d#a [S12]太#d [T1]d M-E
+高 [C]高 [S0]高 [S1]太#高 [S2]高#， [S3]占用#太 [S4]，#估计 [S5]太#高#， [S6]a [S7]d#a [S8]a#wp [S9]v#d [S10]wp#v [S11]d#a#wp [S12]高#a [T1]a E-E
+， [C]， [S0]， [S1]高#， [S2]，#估计 [S3]太#高 [S4]估计#是 [S5]高#，#估计 [S6]wp [S7]a#wp [S8]wp#v [S9]d#a [S10]v#v [S11]a#wp#v [S12]，#wp [T1]wp O
+估计 [C]估 [C]计 [S0]估计 [S1]，#估计 [S2]估计#是 [S3]高#， [S4]是#跟 [S5]，#估计#是 [S6]v [S7]wp#v [S8]v#v [S9]a#wp [S10]v#p [S11]wp#v#v [S12]估计#v [T1]v B-Q
+是 [C]是 [S0]是 [S1]估计#是 [S2]是#跟 [S3]，#估计 [S4]跟#高配版 [S5]估计#是#跟 [S6]v [S7]v#v [S8]v#p [S9]wp#v [S10]p#n [S11]v#v#p [S12]是#v [T1]v M-Q
+跟 [C]跟 [S0]跟 [S1]是#跟 [S2]跟#高配版 [S3]估计#是 [S4]高配版#做 [S5]是#跟#高配版 [S6]p [S7]v#p [S8]p#n [S9]v#v [S10]n#v [S11]v#p#n [S12]跟#p [T1]p M-Q
+高配版 [C]高 [C]配 [C]版 [S0]高配版 [S1]跟#高配版 [S2]高配版#做 [S3]是#跟 [S4]做#的 [S5]跟#高配版#做 [S6]n [S7]p#n [S8]n#v [S9]v#p [S10]v#u [S11]p#n#v [S12]高配版#n [T1]n M-Q
+做 [C]做 [S0]做 [S1]高配版#做 [S2]做#的 [S3]跟#高配版 [S4]的#系统 [S5]高配版#做#的 [S6]v [S7]n#v [S8]v#u [S9]p#n [S10]u#n [S11]n#v#u [S12]做#v [T1]v M-Q
+的 [C]的 [S0]的 [S1]做#的 [S2]的#系统 [S3]高配版#做 [S4]系统#， [S5]做#的#系统 [S6]u [S7]v#u [S8]u#n [S9]n#v [S10]n#wp [S11]v#u#n [S12]的#u [T1]u M-Q
+系统 [C]系 [C]统 [S0]系统 [S1]的#系统 [S2]系统#， [S3]做#的 [S4]，#开机 [S5]的#系统#， [S6]n [S7]u#n [S8]n#wp [S9]v#u [S10]wp#v [S11]u#n#wp [S12]系统#n [T1]n E-Q
+， [C]， [S0]， [S1]系统#， [S2]，#开机 [S3]的#系统 [S4]开机#就 [S5]系统#，#开机 [S6]wp [S7]n#wp [S8]wp#v [S9]u#n [S10]v#d [S11]n#wp#v [S12]，#wp [T1]wp O
+开机 [C]开 [C]机 [S0]开机 [S1]，#开机 [S2]开机#就 [S3]系统#， [S4]就#占 [S5]，#开机#就 [S6]v [S7]wp#v [S8]v#d [S9]n#wp [S10]d#v [S11]wp#v#d [S12]开机#v [T1]v B-Q
+就 [C]就 [S0]就 [S1]开机#就 [S2]就#占 [S3]，#开机 [S4]占#了 [S5]开机#就#占 [S6]d [S7]v#d [S8]d#v [S9]wp#v [S10]v#u [S11]v#d#v [S12]就#d [T1]d M-Q
+占 [C]占 [S0]占 [S1]就#占 [S2]占#了 [S3]开机#就 [S4]了#百分八十 [S5]就#占#了 [S6]v [S7]d#v [S8]v#u [S9]v#d [S10]u#m [S11]d#v#u [S12]占#v [T1]v M-Q
+了 [C]了 [S0]了 [S1]占#了 [S2]了#百分八十 [S3]就#占 [S4]百分八十#的 [S5]占#了#百分八十 [S6]u [S7]v#u [S8]u#m [S9]d#v [S10]m#u [S11]v#u#m [S12]了#u [T1]u M-Q
+百分八十 [C]百 [C]分 [C]八 [C]十 [S0]百分八十 [S1]了#百分八十 [S2]百分八十#的 [S3]占#了 [S4]的#内存 [S5]了#百分八十#的 [S6]m [S7]u#m [S8]m#u [S9]v#u [S10]u#n [S11]u#m#u [S12]百分八十#m [T1]m M-Q
+的 [C]的 [S0]的 [S1]百分八十#的 [S2]的#内存 [S3]了#百分八十 [S4]内存#， [S5]百分八十#的#内存 [S6]u [S7]m#u [S8]u#n [S9]u#m [S10]n#wp [S11]m#u#n [S12]的#u [T1]u M-Q
+内存 [C]内 [C]存 [S0]内存 [S1]的#内存 [S2]内存#， [S3]百分八十#的 [S4]，#怎么 [S5]的#内存#， [S6]n [S7]u#n [S8]n#wp [S9]m#u [S10]wp#r [S11]u#n#wp [S12]内存#n [T1]n E-Q
+， [C]， [S0]， [S1]内存#， [S2]，#怎么 [S3]的#内存 [S4]怎么#优化 [S5]内存#，#怎么 [S6]wp [S7]n#wp [S8]wp#r [S9]u#n [S10]r#v [S11]n#wp#r [S12]，#wp [T1]wp O
+怎么 [C]怎 [C]么 [S0]怎么 [S1]，#怎么 [S2]怎么#优化 [S3]内存#， [S4]优化#都 [S5]，#怎么#优化 [S6]r [S7]wp#r [S8]r#v [S9]n#wp [S10]v#d [S11]wp#r#v [S12]怎么#r [T1]r O
+优化 [C]优 [C]化 [S0]优化 [S1]怎么#优化 [S2]优化#都 [S3]，#怎么 [S4]都#不行 [S5]怎么#优化#都 [S6]v [S7]r#v [S8]v#d [S9]wp#r [S10]d#a [S11]r#v#d [S12]优化#v [T1]v O
+都 [C]都 [S0]都 [S1]优化#都 [S2]都#不行 [S3]怎么#优化 [S4]不行#。 [S5]优化#都#不行 [S6]d [S7]v#d [S8]d#a [S9]r#v [S10]a#wp [S11]v#d#a [S12]都#d [T1]d O
+不行 [C]不 [C]行 [S0]不行 [S1]都#不行 [S2]不行#。 [S3]优化#都 [S4]。#</s> [S5]都#不行#。 [S6]a [S7]d#a [S8]a#wp [S9]v#d [S10]wp#null [S11]d#a#wp [S12]不行#a [T1]a O
+。 [C]。 [S0]。 [S1]不行#。 [S2]。#</s> [S3]都#不行 [S4]</s>#</s> [S5]不行#。#</s> [S6]wp [S7]a#wp [S8]wp#null [S9]d#a [S10]null#null [S11]a#wp#null [S12]。#wp [T1]wp O
+
+电池 [C]电 [C]池 [S0]电池 [S1]<s>#电池 [S2]电池#偶尔 [S3]<s>#<s> [S4]偶尔#会 [S5]<s>#电池#偶尔 [S6]n [S7]null#n [S8]n#d [S9]null#null [S10]d#v [S11]null#n#d [S12]电池#n [T1]n B-Q
+偶尔 [C]偶 [C]尔 [S0]偶尔 [S1]电池#偶尔 [S2]偶尔#会 [S3]<s>#电池 [S4]会#松 [S5]电池#偶尔#会 [S6]d [S7]n#d [S8]d#v [S9]null#n [S10]v#a [S11]n#d#v [S12]偶尔#d [T1]d M-Q
+会 [C]会 [S0]会 [S1]偶尔#会 [S2]会#松 [S3]电池#偶尔 [S4]松#， [S5]偶尔#会#松 [S6]v [S7]d#v [S8]v#a [S9]n#d [S10]a#wp [S11]d#v#a [S12]会#v [T1]v M-Q
+松 [C]松 [S0]松 [S1]会#松 [S2]松#， [S3]偶尔#会 [S4]，#导致 [S5]会#松#， [S6]a [S7]v#a [S8]a#wp [S9]d#v [S10]wp#v [S11]v#a#wp [S12]松#a [T1]a M-Q
+， [C]， [S0]， [S1]松#， [S2]，#导致 [S3]会#松 [S4]导致#手机 [S5]松#，#导致 [S6]wp [S7]a#wp [S8]wp#v [S9]v#a [S10]v#n [S11]a#wp#v [S12]，#wp [T1]wp M-Q
+导致 [C]导 [C]致 [S0]导致 [S1]，#导致 [S2]导致#手机 [S3]松#， [S4]手机#关机 [S5]，#导致#手机 [S6]v [S7]wp#v [S8]v#n [S9]a#wp [S10]n#n [S11]wp#v#n [S12]导致#v [T1]v E-Q
+手机 [C]手 [C]机 [S0]手机 [S1]导致#手机 [S2]手机#关机 [S3]，#导致 [S4]关机#。 [S5]导致#手机#关机 [S6]n [S7]v#n [S8]n#n [S9]wp#v [S10]n#wp [S11]v#n#n [S12]手机#n [T1]n O
+关机 [C]关 [C]机 [S0]关机 [S1]手机#关机 [S2]关机#。 [S3]导致#手机 [S4]。#</s> [S5]手机#关机#。 [S6]n [S7]n#n [S8]n#wp [S9]v#n [S10]wp#null [S11]n#n#wp [S12]关机#n [T1]n S-E
+。 [C]。 [S0]。 [S1]关机#。 [S2]。#</s> [S3]手机#关机 [S4]</s>#</s> [S5]关机#。#</s> [S6]wp [S7]n#wp [S8]wp#null [S9]n#n [S10]null#null [S11]n#wp#null [S12]。#wp [T1]wp O
+
+偶尔 [C]偶 [C]尔 [S0]偶尔 [S1]<s>#偶尔 [S2]偶尔#死机 [S3]<s>#<s> [S4]死机#， [S5]<s>#偶尔#死机 [S6]d [S7]null#d [S8]d#v [S9]null#null [S10]v#wp [S11]null#d#v [S12]偶尔#d [T1]d B-E
+死机 [C]死 [C]机 [S0]死机 [S1]偶尔#死机 [S2]死机#， [S3]<s>#偶尔 [S4]，#估计 [S5]偶尔#死机#， [S6]v [S7]d#v [S8]v#wp [S9]null#d [S10]wp#v [S11]d#v#wp [S12]死机#v [T1]v E-E
+， [C]， [S0]， [S1]死机#， [S2]，#估计 [S3]偶尔#死机 [S4]估计#是 [S5]死机#，#估计 [S6]wp [S7]v#wp [S8]wp#v [S9]d#v [S10]v#v [S11]v#wp#v [S12]，#wp [T1]wp O
+估计 [C]估 [C]计 [S0]估计 [S1]，#估计 [S2]估计#是 [S3]死机#， [S4]是#ROM [S5]，#估计#是 [S6]v [S7]wp#v [S8]v#v [S9]v#wp [S10]v#ws [S11]wp#v#v [S12]估计#v [T1]v B-Q
+是 [C]是 [S0]是 [S1]估计#是 [S2]是#ROM [S3]，#估计 [S4]ROM#兼容性 [S5]估计#是#ROM [S6]v [S7]v#v [S8]v#ws [S9]wp#v [S10]ws#n [S11]v#v#ws [S12]是#v [T1]v M-Q
+ROM [C]R [C]O [C]M [S0]ROM [S1]是#ROM [S2]ROM#兼容性 [S3]估计#是 [S4]兼容性#问题 [S5]是#ROM#兼容性 [S6]ws [S7]v#ws [S8]ws#n [S9]v#v [S10]n#n [S11]v#ws#n [S12]ROM#ws [T1]ws M-Q
+兼容性 [C]兼 [C]容 [C]性 [S0]兼容性 [S1]ROM#兼容性 [S2]兼容性#问题 [S3]是#ROM [S4]问题#， [S5]ROM#兼容性#问题 [S6]n [S7]ws#n [S8]n#n [S9]v#ws [S10]n#wp [S11]ws#n#n [S12]兼容性#n [T1]n M-Q
+问题 [C]问 [C]题 [S0]问题 [S1]兼容性#问题 [S2]问题#， [S3]ROM#兼容性 [S4]，#优化 [S5]兼容性#问题#， [S6]n [S7]n#n [S8]n#wp [S9]ws#n [S10]wp#v [S11]n#n#wp [S12]问题#n [T1]n M-Q
+， [C]， [S0]， [S1]问题#， [S2]，#优化 [S3]兼容性#问题 [S4]优化#的 [S5]问题#，#优化 [S6]wp [S7]n#wp [S8]wp#v [S9]n#n [S10]v#u [S11]n#wp#v [S12]，#wp [T1]wp M-Q
+优化 [C]优 [C]化 [S0]优化 [S1]，#优化 [S2]优化#的 [S3]问题#， [S4]的#不够 [S5]，#优化#的 [S6]v [S7]wp#v [S8]v#u [S9]n#wp [S10]u#a [S11]wp#v#u [S12]优化#v [T1]v M-Q
+的 [C]的 [S0]的 [S1]优化#的 [S2]的#不够 [S3]，#优化 [S4]不够#好 [S5]优化#的#不够 [S6]u [S7]v#u [S8]u#a [S9]wp#v [S10]a#a [S11]v#u#a [S12]的#u [T1]u M-Q
+不够 [C]不 [C]够 [S0]不够 [S1]的#不够 [S2]不够#好 [S3]优化#的 [S4]好#。 [S5]的#不够#好 [S6]a [S7]u#a [S8]a#a [S9]v#u [S10]a#wp [S11]u#a#a [S12]不够#a [T1]a M-Q
+好 [C]好 [S0]好 [S1]不够#好 [S2]好#。 [S3]的#不够 [S4]。#</s> [S5]不够#好#。 [S6]a [S7]a#a [S8]a#wp [S9]u#a [S10]wp#null [S11]a#a#wp [S12]好#a [T1]a E-Q
+。 [C]。 [S0]。 [S1]好#。 [S2]。#</s> [S3]不够#好 [S4]</s>#</s> [S5]好#。#</s> [S6]wp [S7]a#wp [S8]wp#null [S9]a#a [S10]null#null [S11]a#wp#null [S12]。#wp [T1]wp O
+
+音质 [C]音 [C]质 [S0]音质 [S1]<s>#音质 [S2]音质#效果 [S3]<s>#<s> [S4]效果#很 [S5]<s>#音质#效果 [S6]n [S7]null#n [S8]n#n [S9]null#null [S10]n#d [S11]null#n#n [S12]音质#n [T1]n S-A
+效果 [C]效 [C]果 [S0]效果 [S1]音质#效果 [S2]效果#很 [S3]<s>#音质 [S4]很#棒 [S5]音质#效果#很 [S6]n [S7]n#n [S8]n#d [S9]null#n [S10]d#a [S11]n#n#d [S12]效果#n [T1]n B-E
+很 [C]很 [S0]很 [S1]效果#很 [S2]很#棒 [S3]音质#效果 [S4]棒#， [S5]效果#很#棒 [S6]d [S7]n#d [S8]d#a [S9]n#n [S10]a#wp [S11]n#d#a [S12]很#d [T1]d M-E
+棒 [C]棒 [S0]棒 [S1]很#棒 [S2]棒#， [S3]效果#很 [S4]，#用 [S5]很#棒#， [S6]a [S7]d#a [S8]a#wp [S9]n#d [S10]wp#v [S11]d#a#wp [S12]棒#a [T1]a E-E
+， [C]， [S0]， [S1]棒#， [S2]，#用 [S3]很#棒 [S4]用#的 [S5]棒#，#用 [S6]wp [S7]a#wp [S8]wp#v [S9]d#a [S10]v#u [S11]a#wp#v [S12]，#wp [T1]wp O
+用 [C]用 [S0]用 [S1]，#用 [S2]用#的 [S3]棒#， [S4]的#dts [S5]，#用#的 [S6]v [S7]wp#v [S8]v#u [S9]a#wp [S10]u#ws [S11]wp#v#u [S12]用#v [T1]v B-Q
+的 [C]的 [S0]的 [S1]用#的 [S2]的#dts [S3]，#用 [S4]dts#音效 [S5]用#的#dts [S6]u [S7]v#u [S8]u#ws [S9]wp#v [S10]ws#n [S11]v#u#ws [S12]的#u [T1]u M-Q
+dts [C]d [C]t [C]s [S0]dts [S1]的#dts [S2]dts#音效 [S3]用#的 [S4]音效#啊 [S5]的#dts#音效 [S6]ws [S7]u#ws [S8]ws#n [S9]v#u [S10]n#u [S11]u#ws#n [S12]dts#ws [T1]ws M-Q
+音效 [C]音 [C]效 [S0]音效 [S1]dts#音效 [S2]音效#啊 [S3]的#dts [S4]啊#， [S5]dts#音效#啊 [S6]n [S7]ws#n [S8]n#u [S9]u#ws [S10]u#wp [S11]ws#n#u [S12]音效#n [T1]n M-Q
+啊 [C]啊 [S0]啊 [S1]音效#啊 [S2]啊#， [S3]dts#音效 [S4]，#简直 [S5]音效#啊#， [S6]u [S7]n#u [S8]u#wp [S9]ws#n [S10]wp#d [S11]n#u#wp [S12]啊#u [T1]u E-Q
+， [C]， [S0]， [S1]啊#， [S2]，#简直 [S3]音效#啊 [S4]简直#酷 [S5]啊#，#简直 [S6]wp [S7]u#wp [S8]wp#d [S9]n#u [S10]d#a [S11]u#wp#d [S12]，#wp [T1]wp O
+简直 [C]简 [C]直 [S0]简直 [S1]，#简直 [S2]简直#酷 [S3]啊#， [S4]酷#到 [S5]，#简直#酷 [S6]d [S7]wp#d [S8]d#a [S9]u#wp [S10]a#v [S11]wp#d#a [S12]简直#d [T1]d O
+酷 [C]酷 [S0]酷 [S1]简直#酷 [S2]酷#到 [S3]，#简直 [S4]到#不行 [S5]简直#酷#到 [S6]a [S7]d#a [S8]a#v [S9]wp#d [S10]v#a [S11]d#a#v [S12]酷#a [T1]a O
+到 [C]到 [S0]到 [S1]酷#到 [S2]到#不行 [S3]简直#酷 [S4]不行#。 [S5]酷#到#不行 [S6]v [S7]a#v [S8]v#a [S9]d#a [S10]a#wp [S11]a#v#a [S12]到#v [T1]v O
+不行 [C]不 [C]行 [S0]不行 [S1]到#不行 [S2]不行#。 [S3]酷#到 [S4]。#</s> [S5]到#不行#。 [S6]a [S7]v#a [S8]a#wp [S9]a#v [S10]wp#null [S11]v#a#wp [S12]不行#a [T1]a O
+。 [C]。 [S0]。 [S1]不行#。 [S2]。#</s> [S3]到#不行 [S4]</s>#</s> [S5]不行#。#</s> [S6]wp [S7]a#wp [S8]wp#null [S9]v#a [S10]null#null [S11]a#wp#null [S12]。#wp [T1]wp O
+
+iOS5 [C]i [C]O [C]S [C]5 [S0]iOS5 [S1]<s>#iOS5 [S2]iOS5#在 [S3]<s>#<s> [S4]在#iPhone [S5]<s>#iOS5#在 [S6]ws [S7]null#ws [S8]ws#p [S9]null#null [S10]p#ws [S11]null#ws#p [S12]iOS5#ws [T1]ws O
+在 [C]在 [S0]在 [S1]iOS5#在 [S2]在#iPhone [S3]<s>#iOS5 [S4]iPhone#4S [S5]iOS5#在#iPhone [S6]p [S7]ws#p [S8]p#ws [S9]null#ws [S10]ws#ws [S11]ws#p#ws [S12]在#p [T1]p O
+iPhone [C]i [C]P [C]h [C]o [C]n [C]e [S0]iPhone [S1]在#iPhone [S2]iPhone#4S [S3]iOS5#在 [S4]4S#上 [S5]在#iPhone#4S [S6]ws [S7]p#ws [S8]ws#ws [S9]ws#p [S10]ws#nd [S11]p#ws#ws [S12]iPhone#ws [T1]ws O
+4S [C]4 [C]S [S0]4S [S1]iPhone#4S [S2]4S#上 [S3]在#iPhone [S4]上#运行 [S5]iPhone#4S#上 [S6]ws [S7]ws#ws [S8]ws#nd [S9]p#ws [S10]nd#v [S11]ws#ws#nd [S12]4S#ws [T1]ws O
+上 [C]上 [S0]上 [S1]4S#上 [S2]上#运行 [S3]iPhone#4S [S4]运行#非常 [S5]4S#上#运行 [S6]nd [S7]ws#nd [S8]nd#v [S9]ws#ws [S10]v#b [S11]ws#nd#v [S12]上#nd [T1]nd O
+运行 [C]运 [C]行 [S0]运行 [S1]上#运行 [S2]运行#非常 [S3]4S#上 [S4]非常#的 [S5]上#运行#非常 [S6]v [S7]nd#v [S8]v#b [S9]ws#nd [S10]b#u [S11]nd#v#b [S12]运行#v [T1]v S-A
+非常 [C]非 [C]常 [S0]非常 [S1]运行#非常 [S2]非常#的 [S3]上#运行 [S4]的#流畅 [S5]运行#非常#的 [S6]b [S7]v#b [S8]b#u [S9]nd#v [S10]u#a [S11]v#b#u [S12]非常#b [T1]b B-E
+的 [C]的 [S0]的 [S1]非常#的 [S2]的#流畅 [S3]运行#非常 [S4]流畅#， [S5]非常#的#流畅 [S6]u [S7]b#u [S8]u#a [S9]v#b [S10]a#wp [S11]b#u#a [S12]的#u [T1]u M-E
+流畅 [C]流 [C]畅 [S0]流畅 [S1]的#流畅 [S2]流畅#， [S3]非常#的 [S4]，#丝毫 [S5]的#流畅#， [S6]a [S7]u#a [S8]a#wp [S9]b#u [S10]wp#m [S11]u#a#wp [S12]流畅#a [T1]a E-E
+， [C]， [S0]， [S1]流畅#， [S2]，#丝毫 [S3]的#流畅 [S4]丝毫#没有 [S5]流畅#，#丝毫 [S6]wp [S7]a#wp [S8]wp#m [S9]u#a [S10]m#d [S11]a#wp#m [S12]，#wp [T1]wp O
+丝毫 [C]丝 [C]毫 [S0]丝毫 [S1]，#丝毫 [S2]丝毫#没有 [S3]流畅#， [S4]没有#拖沓 [S5]，#丝毫#没有 [S6]m [S7]wp#m [S8]m#d [S9]a#wp [S10]d#a [S11]wp#m#d [S12]丝毫#m [T1]m O
+没有 [C]没 [C]有 [S0]没有 [S1]丝毫#没有 [S2]没有#拖沓 [S3]，#丝毫 [S4]拖沓#的 [S5]丝毫#没有#拖沓 [S6]d [S7]m#d [S8]d#a [S9]wp#m [S10]a#u [S11]m#d#a [S12]没有#d [T1]d O
+拖沓 [C]拖 [C]沓 [S0]拖沓 [S1]没有#拖沓 [S2]拖沓#的 [S3]丝毫#没有 [S4]的#感觉 [S5]没有#拖沓#的 [S6]a [S7]d#a [S8]a#u [S9]m#d [S10]u#n [S11]d#a#u [S12]拖沓#a [T1]a O
+的 [C]的 [S0]的 [S1]拖沓#的 [S2]的#感觉 [S3]没有#拖沓 [S4]感觉#， [S5]拖沓#的#感觉 [S6]u [S7]a#u [S8]u#n [S9]d#a [S10]n#wp [S11]a#u#n [S12]的#u [T1]u O
+感觉 [C]感 [C]觉 [S0]感觉 [S1]的#感觉 [S2]感觉#， [S3]拖沓#的 [S4]，#而 [S5]的#感觉#， [S6]n [S7]u#n [S8]n#wp [S9]a#u [S10]wp#c [S11]u#n#wp [S12]感觉#n [T1]n O
+， [C]， [S0]， [S1]感觉#， [S2]，#而 [S3]的#感觉 [S4]而#GPU [S5]感觉#，#而 [S6]wp [S7]n#wp [S8]wp#c [S9]u#n [S10]c#ws [S11]n#wp#c [S12]，#wp [T1]wp O
+而 [C]而 [S0]而 [S1]，#而 [S2]而#GPU [S3]感觉#， [S4]GPU#性能 [S5]，#而#GPU [S6]c [S7]wp#c [S8]c#ws [S9]n#wp [S10]ws#n [S11]wp#c#ws [S12]而#c [T1]c O
+GPU [C]G [C]P [C]U [S0]GPU [S1]而#GPU [S2]GPU#性能 [S3]，#而 [S4]性能#的 [S5]而#GPU#性能 [S6]ws [S7]c#ws [S8]ws#n [S9]wp#c [S10]n#u [S11]c#ws#n [S12]GPU#ws [T1]ws B-Q
+性能 [C]性 [C]能 [S0]性能 [S1]GPU#性能 [S2]性能#的 [S3]而#GPU [S4]的#提升 [S5]GPU#性能#的 [S6]n [S7]ws#n [S8]n#u [S9]c#ws [S10]u#v [S11]ws#n#u [S12]性能#n [T1]n M-Q
+的 [C]的 [S0]的 [S1]性能#的 [S2]的#提升 [S3]GPU#性能 [S4]提升#则 [S5]性能#的#提升 [S6]u [S7]n#u [S8]u#v [S9]ws#n [S10]v#d [S11]n#u#v [S12]的#u [T1]u M-Q
+提升 [C]提 [C]升 [S0]提升 [S1]的#提升 [S2]提升#则 [S3]性能#的 [S4]则#为 [S5]的#提升#则 [S6]v [S7]u#v [S8]v#d [S9]n#u [S10]d#p [S11]u#v#d [S12]提升#v [T1]v E-Q
+则 [C]则 [S0]则 [S1]提升#则 [S2]则#为 [S3]的#提升 [S4]为#后面 [S5]提升#则#为 [S6]d [S7]v#d [S8]d#p [S9]u#v [S10]p#nd [S11]v#d#p [S12]则#d [T1]d O
+为 [C]为 [S0]为 [S1]则#为 [S2]为#后面 [S3]提升#则 [S4]后面#的 [S5]则#为#后面 [S6]p [S7]d#p [S8]p#nd [S9]v#d [S10]nd#u [S11]d#p#nd [S12]为#p [T1]p O
+后面 [C]后 [C]面 [S0]后面 [S1]为#后面 [S2]后面#的 [S3]则#为 [S4]的#大型 [S5]为#后面#的 [S6]nd [S7]p#nd [S8]nd#u [S9]d#p [S10]u#b [S11]p#nd#u [S12]后面#nd [T1]nd O
+的 [C]的 [S0]的 [S1]后面#的 [S2]的#大型 [S3]为#后面 [S4]大型#3D [S5]后面#的#大型 [S6]u [S7]nd#u [S8]u#b [S9]p#nd [S10]b#ws [S11]nd#u#b [S12]的#u [T1]u O
+大型 [C]大 [C]型 [S0]大型 [S1]的#大型 [S2]大型#3D [S3]后面#的 [S4]3D#游戏 [S5]的#大型#3D [S6]b [S7]u#b [S8]b#ws [S9]nd#u [S10]ws#n [S11]u#b#ws [S12]大型#b [T1]b O
+3D [C]3 [C]D [S0]3D [S1]大型#3D [S2]3D#游戏 [S3]的#大型 [S4]游戏#铺平 [S5]大型#3D#游戏 [S6]ws [S7]b#ws [S8]ws#n [S9]u#b [S10]n#v [S11]b#ws#n [S12]3D#ws [T1]ws O
+游戏 [C]游 [C]戏 [S0]游戏 [S1]3D#游戏 [S2]游戏#铺平 [S3]大型#3D [S4]铺平#了 [S5]3D#游戏#铺平 [S6]n [S7]ws#n [S8]n#v [S9]b#ws [S10]v#u [S11]ws#n#v [S12]游戏#n [T1]n S-A
+铺平 [C]铺 [C]平 [S0]铺平 [S1]游戏#铺平 [S2]铺平#了 [S3]3D#游戏 [S4]了#道路 [S5]游戏#铺平#了 [S6]v [S7]n#v [S8]v#u [S9]ws#n [S10]u#n [S11]n#v#u [S12]铺平#v [T1]v O
+了 [C]了 [S0]了 [S1]铺平#了 [S2]了#道路 [S3]游戏#铺平 [S4]道路#， [S5]铺平#了#道路 [S6]u [S7]v#u [S8]u#n [S9]n#v [S10]n#wp [S11]v#u#n [S12]了#u [T1]u O
+道路 [C]道 [C]路 [S0]道路 [S1]了#道路 [S2]道路#， [S3]铺平#了 [S4]，#很 [S5]了#道路#， [S6]n [S7]u#n [S8]n#wp [S9]v#u [S10]wp#d [S11]u#n#wp [S12]道路#n [T1]n O
+， [C]， [S0]， [S1]道路#， [S2]，#很 [S3]了#道路 [S4]很#顺畅 [S5]道路#，#很 [S6]wp [S7]n#wp [S8]wp#d [S9]u#n [S10]d#a [S11]n#wp#d [S12]，#wp [T1]wp O
+很 [C]很 [S0]很 [S1]，#很 [S2]很#顺畅 [S3]道路#， [S4]顺畅#。 [S5]，#很#顺畅 [S6]d [S7]wp#d [S8]d#a [S9]n#wp [S10]a#wp [S11]wp#d#a [S12]很#d [T1]d B-E
+顺畅 [C]顺 [C]畅 [S0]顺畅 [S1]很#顺畅 [S2]顺畅#。 [S3]，#很 [S4]。#</s> [S5]很#顺畅#。 [S6]a [S7]d#a [S8]a#wp [S9]wp#d [S10]wp#null [S11]d#a#wp [S12]顺畅#a [T1]a E-E
+。 [C]。 [S0]。 [S1]顺畅#。 [S2]。#</s> [S3]很#顺畅 [S4]</s>#</s> [S5]顺畅#。#</s> [S6]wp [S7]a#wp [S8]wp#null [S9]d#a [S10]null#null [S11]a#wp#null [S12]。#wp [T1]wp O
+
+颜色 [C]颜 [C]色 [S0]颜色 [S1]<s>#颜色 [S2]颜色#太 [S3]<s>#<s> [S4]太#过 [S5]<s>#颜色#太 [S6]n [S7]null#n [S8]n#d [S9]null#null [S10]d#v [S11]null#n#d [S12]颜色#n [T1]n B-Q
+太 [C]太 [S0]太 [S1]颜色#太 [S2]太#过 [S3]<s>#颜色 [S4]过#了 [S5]颜色#太#过 [S6]d [S7]n#d [S8]d#v [S9]null#n [S10]v#u [S11]n#d#v [S12]太#d [T1]d M-Q
+过 [C]过 [S0]过 [S1]太#过 [S2]过#了 [S3]颜色#太 [S4]了#， [S5]太#过#了 [S6]v [S7]d#v [S8]v#u [S9]n#d [S10]u#wp [S11]d#v#u [S12]过#v [T1]v M-Q
+了 [C]了 [S0]了 [S1]过#了 [S2]了#， [S3]太#过 [S4]，#使得 [S5]过#了#， [S6]u [S7]v#u [S8]u#wp [S9]d#v [S10]wp#v [S11]v#u#wp [S12]了#u [T1]u M-Q
+， [C]， [S0]， [S1]了#， [S2]，#使得 [S3]过#了 [S4]使得#整个 [S5]了#，#使得 [S6]wp [S7]u#wp [S8]wp#v [S9]v#u [S10]v#b [S11]u#wp#v [S12]，#wp [T1]wp M-Q
+使得 [C]使 [C]得 [S0]使得 [S1]，#使得 [S2]使得#整个 [S3]了#， [S4]整个#画面 [S5]，#使得#整个 [S6]v [S7]wp#v [S8]v#b [S9]u#wp [S10]b#n [S11]wp#v#b [S12]使得#v [T1]v E-Q
+整个 [C]整 [C]个 [S0]整个 [S1]使得#整个 [S2]整个#画面 [S3]，#使得 [S4]画面#感觉 [S5]使得#整个#画面 [S6]b [S7]v#b [S8]b#n [S9]wp#v [S10]n#n [S11]v#b#n [S12]整个#b [T1]b O
+画面 [C]画 [C]面 [S0]画面 [S1]整个#画面 [S2]画面#感觉 [S3]使得#整个 [S4]感觉#比较 [S5]整个#画面#感觉 [S6]n [S7]b#n [S8]n#n [S9]v#b [S10]n#d [S11]b#n#n [S12]画面#n [T1]n S-A
+感觉 [C]感 [C]觉 [S0]感觉 [S1]画面#感觉 [S2]感觉#比较 [S3]整个#画面 [S4]比较#暗 [S5]画面#感觉#比较 [S6]n [S7]n#n [S8]n#d [S9]b#n [S10]d#a [S11]n#n#d [S12]感觉#n [T1]n O
+比较 [C]比 [C]较 [S0]比较 [S1]感觉#比较 [S2]比较#暗 [S3]画面#感觉 [S4]暗#</s> [S5]感觉#比较#暗 [S6]d [S7]n#d [S8]d#a [S9]n#n [S10]a#null [S11]n#d#a [S12]比较#d [T1]d B-E
+暗 [C]暗 [S0]暗 [S1]比较#暗 [S2]暗#</s> [S3]感觉#比较 [S4]</s>#</s> [S5]比较#暗#</s> [S6]a [S7]d#a [S8]a#null [S9]n#d [S10]null#null [S11]d#a#null [S12]暗#a [T1]a E-E
+
+因为 [C]因 [C]为 [S0]因为 [S1]<s>#因为 [S2]因为#4S [S3]<s>#<s> [S4]4S#使用 [S5]<s>#因为#4S [S6]c [S7]null#c [S8]c#ws [S9]null#null [S10]ws#v [S11]null#c#ws [S12]因为#c [T1]c B-Q
+4S [C]4 [C]S [S0]4S [S1]因为#4S [S2]4S#使用 [S3]<s>#因为 [S4]使用#了 [S5]因为#4S#使用 [S6]ws [S7]c#ws [S8]ws#v [S9]null#c [S10]v#u [S11]c#ws#v [S12]4S#ws [T1]ws M-Q
+使用 [C]使 [C]用 [S0]使用 [S1]4S#使用 [S2]使用#了 [S3]因为#4S [S4]了#和 [S5]4S#使用#了 [S6]v [S7]ws#v [S8]v#u [S9]c#ws [S10]u#p [S11]ws#v#u [S12]使用#v [T1]v M-Q
+了 [C]了 [S0]了 [S1]使用#了 [S2]了#和 [S3]4S#使用 [S4]和#IPAD2 [S5]使用#了#和 [S6]u [S7]v#u [S8]u#p [S9]ws#v [S10]p#ws [S11]v#u#p [S12]了#u [T1]u M-Q
+和 [C]和 [S0]和 [S1]了#和 [S2]和#IPAD2 [S3]使用#了 [S4]IPAD2#一样 [S5]了#和#IPAD2 [S6]p [S7]u#p [S8]p#ws [S9]v#u [S10]ws#a [S11]u#p#ws [S12]和#p [T1]p M-Q
+IPAD2 [C]I [C]P [C]A [C]D [C]2 [S0]IPAD2 [S1]和#IPAD2 [S2]IPAD2#一样 [S3]了#和 [S4]一样#的 [S5]和#IPAD2#一样 [S6]ws [S7]p#ws [S8]ws#a [S9]u#p [S10]a#u [S11]p#ws#a [S12]IPAD2#ws [T1]ws M-Q
+一样 [C]一 [C]样 [S0]一样 [S1]IPAD2#一样 [S2]一样#的 [S3]和#IPAD2 [S4]的#A5 [S5]IPAD2#一样#的 [S6]a [S7]ws#a [S8]a#u [S9]p#ws [S10]u#ws [S11]ws#a#u [S12]一样#a [T1]a M-Q
+的 [C]的 [S0]的 [S1]一样#的 [S2]的#A5 [S3]IPAD2#一样 [S4]A5#双核 [S5]一样#的#A5 [S6]u [S7]a#u [S8]u#ws [S9]ws#a [S10]ws#n [S11]a#u#ws [S12]的#u [T1]u M-Q
+A5 [C]A [C]5 [S0]A5 [S1]的#A5 [S2]A5#双核 [S3]一样#的 [S4]双核#处理器 [S5]的#A5#双核 [S6]ws [S7]u#ws [S8]ws#n [S9]a#u [S10]n#n [S11]u#ws#n [S12]A5#ws [T1]ws M-Q
+双核 [C]双 [C]核 [S0]双核 [S1]A5#双核 [S2]双核#处理器 [S3]的#A5 [S4]处理器#， [S5]A5#双核#处理器 [S6]n [S7]ws#n [S8]n#n [S9]u#ws [S10]n#wp [S11]ws#n#n [S12]双核#n [T1]n M-Q
+处理器 [C]处 [C]理 [C]器 [S0]处理器 [S1]双核#处理器 [S2]处理器#， [S3]A5#双核 [S4]，#在 [S5]双核#处理器#， [S6]n [S7]n#n [S8]n#wp [S9]ws#n [S10]wp#p [S11]n#n#wp [S12]处理器#n [T1]n E-Q
+， [C]， [S0]， [S1]处理器#， [S2]，#在 [S3]双核#处理器 [S4]在#影音 [S5]处理器#，#在 [S6]wp [S7]n#wp [S8]wp#p [S9]n#n [S10]p#n [S11]n#wp#p [S12]，#wp [T1]wp O
+在 [C]在 [S0]在 [S1]，#在 [S2]在#影音 [S3]处理器#， [S4]影音#播放 [S5]，#在#影音 [S6]p [S7]wp#p [S8]p#n [S9]n#wp [S10]n#v [S11]wp#p#n [S12]在#p [T1]p O
+影音 [C]影 [C]音 [S0]影音 [S1]在#影音 [S2]影音#播放 [S3]，#在 [S4]播放#上 [S5]在#影音#播放 [S6]n [S7]p#n [S8]n#v [S9]wp#p [S10]v#nd [S11]p#n#v [S12]影音#n [T1]n B-A
+播放 [C]播 [C]放 [S0]播放 [S1]影音#播放 [S2]播放#上 [S3]在#影音 [S4]上#比 [S5]影音#播放#上 [S6]v [S7]n#v [S8]v#nd [S9]p#n [S10]nd#p [S11]n#v#nd [S12]播放#v [T1]v E-A
+上 [C]上 [S0]上 [S1]播放#上 [S2]上#比 [S3]影音#播放 [S4]比#第四 [S5]播放#上#比 [S6]nd [S7]v#nd [S8]nd#p [S9]n#v [S10]p#m [S11]v#nd#p [S12]上#nd [T1]nd O
+比 [C]比 [S0]比 [S1]上#比 [S2]比#第四 [S3]播放#上 [S4]第四#代 [S5]上#比#第四 [S6]p [S7]nd#p [S8]p#m [S9]v#nd [S10]m#q [S11]nd#p#m [S12]比#p [T1]p B-E
+第四 [C]第 [C]四 [S0]第四 [S1]比#第四 [S2]第四#代 [S3]上#比 [S4]代#产品 [S5]比#第四#代 [S6]m [S7]p#m [S8]m#q [S9]nd#p [S10]q#n [S11]p#m#q [S12]第四#m [T1]m M-E
+代 [C]代 [S0]代 [S1]第四#代 [S2]代#产品 [S3]比#第四 [S4]产品#增强 [S5]第四#代#产品 [S6]q [S7]m#q [S8]q#n [S9]p#m [S10]n#v [S11]m#q#n [S12]代#q [T1]q M-E
+产品 [C]产 [C]品 [S0]产品 [S1]代#产品 [S2]产品#增强 [S3]第四#代 [S4]增强#了 [S5]代#产品#增强 [S6]n [S7]q#n [S8]n#v [S9]m#q [S10]v#u [S11]q#n#v [S12]产品#n [T1]n M-E
+增强 [C]增 [C]强 [S0]增强 [S1]产品#增强 [S2]增强#了 [S3]代#产品 [S4]了#很多 [S5]产品#增强#了 [S6]v [S7]n#v [S8]v#u [S9]q#n [S10]u#m [S11]n#v#u [S12]增强#v [T1]v M-E
+了 [C]了 [S0]了 [S1]增强#了 [S2]了#很多 [S3]产品#增强 [S4]很多#。 [S5]增强#了#很多 [S6]u [S7]v#u [S8]u#m [S9]n#v [S10]m#wp [S11]v#u#m [S12]了#u [T1]u M-E
+很多 [C]很 [C]多 [S0]很多 [S1]了#很多 [S2]很多#。 [S3]增强#了 [S4]。#</s> [S5]了#很多#。 [S6]m [S7]u#m [S8]m#wp [S9]v#u [S10]wp#null [S11]u#m#wp [S12]很多#m [T1]m E-E
+。 [C]。 [S0]。 [S1]很多#。 [S2]。#</s> [S3]了#很多 [S4]</s>#</s> [S5]很多#。#</s> [S6]wp [S7]m#wp [S8]wp#null [S9]u#m [S10]null#null [S11]m#wp#null [S12]。#wp [T1]wp O
+
+由于 [C]由 [C]于 [S0]由于 [S1]<s>#由于 [S2]由于#原来 [S3]<s>#<s> [S4]原来#的 [S5]<s>#由于#原来 [S6]c [S7]null#c [S8]c#b [S9]null#null [S10]b#u [S11]null#c#b [S12]由于#c [T1]c B-Q
+原来 [C]原 [C]来 [S0]原来 [S1]由于#原来 [S2]原来#的 [S3]<s>#由于 [S4]的#全 [S5]由于#原来#的 [S6]b [S7]c#b [S8]b#u [S9]null#c [S10]u#a [S11]c#b#u [S12]原来#b [T1]b M-Q
+的 [C]的 [S0]的 [S1]原来#的 [S2]的#全 [S3]由于#原来 [S4]全#键盘 [S5]原来#的#全 [S6]u [S7]b#u [S8]u#a [S9]c#b [S10]a#n [S11]b#u#a [S12]的#u [T1]u M-Q
+全 [C]全 [S0]全 [S1]的#全 [S2]全#键盘 [S3]原来#的 [S4]键盘#被 [S5]的#全#键盘 [S6]a [S7]u#a [S8]a#n [S9]b#u [S10]n#p [S11]u#a#n [S12]全#a [T1]a M-Q
+键盘 [C]键 [C]盘 [S0]键盘 [S1]全#键盘 [S2]键盘#被 [S3]的#全 [S4]被#导航键 [S5]全#键盘#被 [S6]n [S7]a#n [S8]n#p [S9]u#a [S10]p#n [S11]a#n#p [S12]键盘#n [T1]n M-Q
+被 [C]被 [S0]被 [S1]键盘#被 [S2]被#导航键 [S3]全#键盘 [S4]导航键#占用 [S5]键盘#被#导航键 [S6]p [S7]n#p [S8]p#n [S9]a#n [S10]n#v [S11]n#p#n [S12]被#p [T1]p M-Q
+导航键 [C]导 [C]航 [C]键 [S0]导航键 [S1]被#导航键 [S2]导航键#占用 [S3]键盘#被 [S4]占用#不少 [S5]被#导航键#占用 [S6]n [S7]p#n [S8]n#v [S9]n#p [S10]v#m [S11]p#n#v [S12]导航键#n [T1]n M-Q
+占用 [C]占 [C]用 [S0]占用 [S1]导航键#占用 [S2]占用#不少 [S3]被#导航键 [S4]不少#空间 [S5]导航键#占用#不少 [S6]v [S7]n#v [S8]v#m [S9]p#n [S10]m#n [S11]n#v#m [S12]占用#v [T1]v M-Q
+不少 [C]不 [C]少 [S0]不少 [S1]占用#不少 [S2]不少#空间 [S3]导航键#占用 [S4]空间#因此 [S5]占用#不少#空间 [S6]m [S7]v#m [S8]m#n [S9]n#v [S10]n#c [S11]v#m#n [S12]不少#m [T1]m M-Q
+空间 [C]空 [C]间 [S0]空间 [S1]不少#空间 [S2]空间#因此 [S3]占用#不少 [S4]因此#升级版 [S5]不少#空间#因此 [S6]n [S7]m#n [S8]n#c [S9]v#m [S10]c#v [S11]m#n#c [S12]空间#n [T1]n E-Q
+因此 [C]因 [C]此 [S0]因此 [S1]空间#因此 [S2]因此#升级版 [S3]不少#空间 [S4]升级版#的 [S5]空间#因此#升级版 [S6]c [S7]n#c [S8]c#v [S9]m#n [S10]v#u [S11]n#c#v [S12]因此#c [T1]c O
+升级版 [C]升 [C]级 [C]版 [S0]升级版 [S1]因此#升级版 [S2]升级版#的 [S3]空间#因此 [S4]的#Milestone2 [S5]因此#升级版#的 [S6]v [S7]c#v [S8]v#u [S9]n#c [S10]u#ws [S11]c#v#u [S12]升级版#v [T1]v O
+的 [C]的 [S0]的 [S1]升级版#的 [S2]的#Milestone2 [S3]因此#升级版 [S4]Milestone2#导航 [S5]升级版#的#Milestone2 [S6]u [S7]v#u [S8]u#ws [S9]c#v [S10]ws#v [S11]v#u#ws [S12]的#u [T1]u O
+Milestone2 [C]M [C]i [C]l [C]e [C]s [C]t [C]o [C]n [C]e [C]2 [S0]Milestone2 [S1]的#Milestone2 [S2]Milestone2#导航 [S3]升级版#的 [S4]导航#键 [S5]的#Milestone2#导航 [S6]ws [S7]u#ws [S8]ws#v [S9]v#u [S10]v#n [S11]u#ws#v [S12]Milestone2#ws [T1]ws O
+导航 [C]导 [C]航 [S0]导航 [S1]Milestone2#导航 [S2]导航#键 [S3]的#Milestone2 [S4]键#小 [S5]Milestone2#导航#键 [S6]v [S7]ws#v [S8]v#n [S9]u#ws [S10]n#a [S11]ws#v#n [S12]导航#v [T1]v B-A
+键 [C]键 [S0]键 [S1]导航#键 [S2]键#小 [S3]Milestone2#导航 [S4]小#了 [S5]导航#键#小 [S6]n [S7]v#n [S8]n#a [S9]ws#v [S10]a#u [S11]v#n#a [S12]键#n [T1]n E-A
+小 [C]小 [S0]小 [S1]键#小 [S2]小#了 [S3]导航#键 [S4]了#不 [S5]键#小#了 [S6]a [S7]n#a [S8]a#u [S9]v#n [S10]u#d [S11]n#a#u [S12]小#a [T1]a B-E
+了 [C]了 [S0]了 [S1]小#了 [S2]了#不 [S3]键#小 [S4]不#少 [S5]小#了#不 [S6]u [S7]a#u [S8]u#d [S9]n#a [S10]d#a [S11]a#u#d [S12]了#u [T1]u M-E
+不 [C]不 [S0]不 [S1]了#不 [S2]不#少 [S3]小#了 [S4]少#， [S5]了#不#少 [S6]d [S7]u#d [S8]d#a [S9]a#u [S10]a#wp [S11]u#d#a [S12]不#d [T1]d M-E
+少 [C]少 [S0]少 [S1]不#少 [S2]少#， [S3]了#不 [S4]，#换 [S5]不#少#， [S6]a [S7]d#a [S8]a#wp [S9]u#d [S10]wp#v [S11]d#a#wp [S12]少#a [T1]a E-E
+， [C]， [S0]， [S1]少#， [S2]，#换 [S3]不#少 [S4]换#来 [S5]少#，#换 [S6]wp [S7]a#wp [S8]wp#v [S9]d#a [S10]v#v [S11]a#wp#v [S12]，#wp [T1]wp O
+换 [C]换 [S0]换 [S1]，#换 [S2]换#来 [S3]少#， [S4]来#的 [S5]，#换#来 [S6]v [S7]wp#v [S8]v#v [S9]a#wp [S10]v#u [S11]wp#v#v [S12]换#v [T1]v B-Q
+来 [C]来 [S0]来 [S1]换#来 [S2]来#的 [S3]，#换 [S4]的#就是 [S5]换#来#的 [S6]v [S7]v#v [S8]v#u [S9]wp#v [S10]u#v [S11]v#v#u [S12]来#v [T1]v M-Q
+的 [C]的 [S0]的 [S1]来#的 [S2]的#就是 [S3]换#来 [S4]就是#每个 [S5]来#的#就是 [S6]u [S7]v#u [S8]u#v [S9]v#v [S10]v#r [S11]v#u#v [S12]的#u [T1]u M-Q
+就是 [C]就 [C]是 [S0]就是 [S1]的#就是 [S2]就是#每个 [S3]来#的 [S4]每个#按键 [S5]的#就是#每个 [S6]v [S7]u#v [S8]v#r [S9]v#u [S10]r#n [S11]u#v#r [S12]就是#v [T1]v M-Q
+每个 [C]每 [C]个 [S0]每个 [S1]就是#每个 [S2]每个#按键 [S3]的#就是 [S4]按键#平均 [S5]就是#每个#按键 [S6]r [S7]v#r [S8]r#n [S9]u#v [S10]n#a [S11]v#r#n [S12]每个#r [T1]r M-Q
+按键 [C]按 [C]键 [S0]按键 [S1]每个#按键 [S2]按键#平均 [S3]就是#每个 [S4]平均#面积 [S5]每个#按键#平均 [S6]n [S7]r#n [S8]n#a [S9]v#r [S10]a#n [S11]r#n#a [S12]按键#n [T1]n M-Q
+平均 [C]平 [C]均 [S0]平均 [S1]按键#平均 [S2]平均#面积 [S3]每个#按键 [S4]面积#的 [S5]按键#平均#面积 [S6]a [S7]n#a [S8]a#n [S9]r#n [S10]n#u [S11]n#a#n [S12]平均#a [T1]a M-Q
+面积 [C]面 [C]积 [S0]面积 [S1]平均#面积 [S2]面积#的 [S3]按键#平均 [S4]的#增大 [S5]平均#面积#的 [S6]n [S7]a#n [S8]n#u [S9]n#a [S10]u#v [S11]a#n#u [S12]面积#n [T1]n M-Q
+的 [C]的 [S0]的 [S1]面积#的 [S2]的#增大 [S3]平均#面积 [S4]增大#， [S5]面积#的#增大 [S6]u [S7]n#u [S8]u#v [S9]a#n [S10]v#wp [S11]n#u#v [S12]的#u [T1]u M-Q
+增大 [C]增 [C]大 [S0]增大 [S1]的#增大 [S2]增大#， [S3]面积#的 [S4]，#手感 [S5]的#增大#， [S6]v [S7]u#v [S8]v#wp [S9]n#u [S10]wp#n [S11]u#v#wp [S12]增大#v [T1]v E-Q
+， [C]， [S0]， [S1]增大#， [S2]，#手感 [S3]的#增大 [S4]手感#应该 [S5]增大#，#手感 [S6]wp [S7]v#wp [S8]wp#n [S9]u#v [S10]n#v [S11]v#wp#n [S12]，#wp [T1]wp O
+手感 [C]手 [C]感 [S0]手感 [S1]，#手感 [S2]手感#应该 [S3]增大#， [S4]应该#更 [S5]，#手感#应该 [S6]n [S7]wp#n [S8]n#v [S9]v#wp [S10]v#d [S11]wp#n#v [S12]手感#n [T1]n S-A
+应该 [C]应 [C]该 [S0]应该 [S1]手感#应该 [S2]应该#更 [S3]，#手感 [S4]更#不错 [S5]手感#应该#更 [S6]v [S7]n#v [S8]v#d [S9]wp#n [S10]d#a [S11]n#v#d [S12]应该#v [T1]v O
+更 [C]更 [S0]更 [S1]应该#更 [S2]更#不错 [S3]手感#应该 [S4]不错#了 [S5]应该#更#不错 [S6]d [S7]v#d [S8]d#a [S9]n#v [S10]a#u [S11]v#d#a [S12]更#d [T1]d B-E
+不错 [C]不 [C]错 [S0]不错 [S1]更#不错 [S2]不错#了 [S3]应该#更 [S4]了#~ [S5]更#不错#了 [S6]a [S7]d#a [S8]a#u [S9]v#d [S10]u#wp [S11]d#a#u [S12]不错#a [T1]a M-E
+了 [C]了 [S0]了 [S1]不错#了 [S2]了#~ [S3]更#不错 [S4]~#</s> [S5]不错#了#~ [S6]u [S7]a#u [S8]u#wp [S9]d#a [S10]wp#null [S11]a#u#wp [S12]了#u [T1]u E-E
+~ [C]~ [S0]~ [S1]了#~ [S2]~#</s> [S3]不错#了 [S4]</s>#</s> [S5]了#~#</s> [S6]wp [S7]u#wp [S8]wp#null [S9]a#u [S10]null#null [S11]u#wp#null [S12]~#wp [T1]wp O
+
+屏幕 [C]屏 [C]幕 [S0]屏幕 [S1]<s>#屏幕 [S2]屏幕#有 [S3]<s>#<s> [S4]有#点 [S5]<s>#屏幕#有 [S6]n [S7]null#n [S8]n#v [S9]null#null [S10]v#q [S11]null#n#v [S12]屏幕#n [T1]n B-Q
+有 [C]有 [S0]有 [S1]屏幕#有 [S2]有#点 [S3]<s>#屏幕 [S4]点#小 [S5]屏幕#有#点 [S6]v [S7]n#v [S8]v#q [S9]null#n [S10]q#a [S11]n#v#q [S12]有#v [T1]v M-Q
+点 [C]点 [S0]点 [S1]有#点 [S2]点#小 [S3]屏幕#有 [S4]小#， [S5]有#点#小 [S6]q [S7]v#q [S8]q#a [S9]n#v [S10]a#wp [S11]v#q#a [S12]点#q [T1]q M-Q
+小 [C]小 [S0]小 [S1]点#小 [S2]小#， [S3]有#点 [S4]，#才 [S5]点#小#， [S6]a [S7]q#a [S8]a#wp [S9]v#q [S10]wp#d [S11]q#a#wp [S12]小#a [T1]a M-Q
+， [C]， [S0]， [S1]小#， [S2]，#才 [S3]点#小 [S4]才#3.2 [S5]小#，#才 [S6]wp [S7]a#wp [S8]wp#d [S9]q#a [S10]d#m [S11]a#wp#d [S12]，#wp [T1]wp M-Q
+才 [C]才 [S0]才 [S1]，#才 [S2]才#3.2 [S3]小#， [S4]3.2#， [S5]，#才#3.2 [S6]d [S7]wp#d [S8]d#m [S9]a#wp [S10]m#wp [S11]wp#d#m [S12]才#d [T1]d M-Q
+3.2 [C]3 [C]. [C]2 [S0]3.2 [S1]才#3.2 [S2]3.2#， [S3]，#才 [S4]，#导致 [S5]才#3.2#， [S6]m [S7]d#m [S8]m#wp [S9]wp#d [S10]wp#v [S11]d#m#wp [S12]3.2#m [T1]m M-Q
+， [C]， [S0]， [S1]3.2#， [S2]，#导致 [S3]才#3.2 [S4]导致#字体 [S5]3.2#，#导致 [S6]wp [S7]m#wp [S8]wp#v [S9]d#m [S10]v#n [S11]m#wp#v [S12]，#wp [T1]wp M-Q
+导致 [C]导 [C]致 [S0]导致 [S1]，#导致 [S2]导致#字体 [S3]3.2#， [S4]字体#比较 [S5]，#导致#字体 [S6]v [S7]wp#v [S8]v#n [S9]m#wp [S10]n#d [S11]wp#v#n [S12]导致#v [T1]v M-Q
+字体 [C]字 [C]体 [S0]字体 [S1]导致#字体 [S2]字体#比较 [S3]，#导致 [S4]比较#小 [S5]导致#字体#比较 [S6]n [S7]v#n [S8]n#d [S9]wp#v [S10]d#a [S11]v#n#d [S12]字体#n [T1]n M-Q
+比较 [C]比 [C]较 [S0]比较 [S1]字体#比较 [S2]比较#小 [S3]导致#字体 [S4]小#， [S5]字体#比较#小 [S6]d [S7]n#d [S8]d#a [S9]v#n [S10]a#wp [S11]n#d#a [S12]比较#d [T1]d M-Q
+小 [C]小 [S0]小 [S1]比较#小 [S2]小#， [S3]字体#比较 [S4]，#按键 [S5]比较#小#， [S6]a [S7]d#a [S8]a#wp [S9]n#d [S10]wp#i [S11]d#a#wp [S12]小#a [T1]a E-Q
+， [C]， [S0]， [S1]小#， [S2]，#按键 [S3]比较#小 [S4]按键#时 [S5]小#，#按键 [S6]wp [S7]a#wp [S8]wp#i [S9]d#a [S10]i#n [S11]a#wp#i [S12]，#wp [T1]wp O
+按键 [C]按 [C]键 [S0]按键 [S1]，#按键 [S2]按键#时 [S3]小#， [S4]时#容易 [S5]，#按键#时 [S6]i [S7]wp#i [S8]i#n [S9]a#wp [S10]n#a [S11]wp#i#n [S12]按键#i [T1]i S-A
+时 [C]时 [S0]时 [S1]按键#时 [S2]时#容易 [S3]，#按键 [S4]容易#按 [S5]按键#时#容易 [S6]n [S7]i#n [S8]n#a [S9]wp#i [S10]a#v [S11]i#n#a [S12]时#n [T1]n O
+容易 [C]容 [C]易 [S0]容易 [S1]时#容易 [S2]容易#按 [S3]按键#时 [S4]按#错 [S5]时#容易#按 [S6]a [S7]n#a [S8]a#v [S9]i#n [S10]v#n [S11]n#a#v [S12]容易#a [T1]a B-E
+按 [C]按 [S0]按 [S1]容易#按 [S2]按#错 [S3]时#容易 [S4]错#。 [S5]容易#按#错 [S6]v [S7]a#v [S8]v#n [S9]n#a [S10]n#wp [S11]a#v#n [S12]按#v [T1]v M-E
+错 [C]错 [S0]错 [S1]按#错 [S2]错#。 [S3]容易#按 [S4]。#</s> [S5]按#错#。 [S6]n [S7]v#n [S8]n#wp [S9]a#v [S10]wp#null [S11]v#n#wp [S12]错#n [T1]n E-E
+。 [C]。 [S0]。 [S1]错#。 [S2]。#</s> [S3]按#错 [S4]</s>#</s> [S5]错#。#</s> [S6]wp [S7]n#wp [S8]wp#null [S9]v#n [S10]null#null [S11]n#wp#null [S12]。#wp [T1]wp O
+
+硬件 [C]硬 [C]件 [S0]硬件 [S1]<s>#硬件 [S2]硬件#水平 [S3]<s>#<s> [S4]水平#限制 [S5]<s>#硬件#水平 [S6]n [S7]null#n [S8]n#n [S9]null#null [S10]n#v [S11]null#n#n [S12]硬件#n [T1]n B-Q
+水平 [C]水 [C]平 [S0]水平 [S1]硬件#水平 [S2]水平#限制 [S3]<s>#硬件 [S4]限制#多 [S5]硬件#水平#限制 [S6]n [S7]n#n [S8]n#v [S9]null#n [S10]v#d [S11]n#n#v [S12]水平#n [T1]n M-Q
+限制 [C]限 [C]制 [S0]限制 [S1]水平#限制 [S2]限制#多 [S3]硬件#水平 [S4]多#开 [S5]水平#限制#多 [S6]v [S7]n#v [S8]v#d [S9]n#n [S10]d#v [S11]n#v#d [S12]限制#v [T1]v M-Q
+多 [C]多 [S0]多 [S1]限制#多 [S2]多#开 [S3]水平#限制 [S4]开#程序 [S5]限制#多#开 [S6]d [S7]v#d [S8]d#v [S9]n#v [S10]v#n [S11]v#d#v [S12]多#d [T1]d M-Q
+开 [C]开 [S0]开 [S1]多#开 [S2]开#程序 [S3]限制#多 [S4]程序#后 [S5]多#开#程序 [S6]v [S7]d#v [S8]v#n [S9]v#d [S10]n#nd [S11]d#v#n [S12]开#v [T1]v M-Q
+程序 [C]程 [C]序 [S0]程序 [S1]开#程序 [S2]程序#后 [S3]多#开 [S4]后#反应 [S5]开#程序#后 [S6]n [S7]v#n [S8]n#nd [S9]d#v [S10]nd#v [S11]v#n#nd [S12]程序#n [T1]n M-Q
+后 [C]后 [S0]后 [S1]程序#后 [S2]后#反应 [S3]开#程序 [S4]反应#迟钝 [S5]程序#后#反应 [S6]nd [S7]n#nd [S8]nd#v [S9]v#n [S10]v#a [S11]n#nd#v [S12]后#nd [T1]nd M-Q
+反应 [C]反 [C]应 [S0]反应 [S1]后#反应 [S2]反应#迟钝 [S3]程序#后 [S4]迟钝#， [S5]后#反应#迟钝 [S6]v [S7]nd#v [S8]v#a [S9]n#nd [S10]a#wp [S11]nd#v#a [S12]反应#v [T1]v M-Q
+迟钝 [C]迟 [C]钝 [S0]迟钝 [S1]反应#迟钝 [S2]迟钝#， [S3]后#反应 [S4]，#所以 [S5]反应#迟钝#， [S6]a [S7]v#a [S8]a#wp [S9]nd#v [S10]wp#c [S11]v#a#wp [S12]迟钝#a [T1]a M-Q
+， [C]， [S0]， [S1]迟钝#， [S2]，#所以 [S3]反应#迟钝 [S4]所以#手机 [S5]迟钝#，#所以 [S6]wp [S7]a#wp [S8]wp#c [S9]v#a [S10]c#n [S11]a#wp#c [S12]，#wp [T1]wp M-Q
+所以 [C]所 [C]以 [S0]所以 [S1]，#所以 [S2]所以#手机 [S3]迟钝#， [S4]手机#老 [S5]，#所以#手机 [S6]c [S7]wp#c [S8]c#n [S9]a#wp [S10]n#a [S11]wp#c#n [S12]所以#c [T1]c E-Q
+手机 [C]手 [C]机 [S0]手机 [S1]所以#手机 [S2]手机#老 [S3]，#所以 [S4]老#爱死机 [S5]所以#手机#老 [S6]n [S7]c#n [S8]n#a [S9]wp#c [S10]a#n [S11]c#n#a [S12]手机#n [T1]n O
+老 [C]老 [S0]老 [S1]手机#老 [S2]老#爱死机 [S3]所以#手机 [S4]爱死机#， [S5]手机#老#爱死机 [S6]a [S7]n#a [S8]a#n [S9]c#n [S10]n#wp [S11]n#a#n [S12]老#a [T1]a B-E
+爱死机 [C]爱 [C]死 [C]机 [S0]爱死机 [S1]老#爱死机 [S2]爱死机#， [S3]手机#老 [S4]，#开机 [S5]老#爱死机#， [S6]n [S7]a#n [S8]n#wp [S9]n#a [S10]wp#v [S11]a#n#wp [S12]爱死机#n [T1]n E-E
+， [C]， [S0]， [S1]爱死机#， [S2]，#开机 [S3]老#爱死机 [S4]开机#比 [S5]爱死机#，#开机 [S6]wp [S7]n#wp [S8]wp#v [S9]a#n [S10]v#p [S11]n#wp#v [S12]，#wp [T1]wp O
+开机 [C]开 [C]机 [S0]开机 [S1]，#开机 [S2]开机#比 [S3]爱死机#， [S4]比#我 [S5]，#开机#比 [S6]v [S7]wp#v [S8]v#p [S9]n#wp [S10]p#r [S11]wp#v#p [S12]开机#v [T1]v S-A
+比 [C]比 [S0]比 [S1]开机#比 [S2]比#我 [S3]，#开机 [S4]我#的 [S5]开机#比#我 [S6]p [S7]v#p [S8]p#r [S9]wp#v [S10]r#u [S11]v#p#r [S12]比#p [T1]p B-E
+我 [C]我 [S0]我 [S1]比#我 [S2]我#的 [S3]开机#比 [S4]的#电脑 [S5]比#我#的 [S6]r [S7]p#r [S8]r#u [S9]v#p [S10]u#n [S11]p#r#u [S12]我#r [T1]r M-E
+的 [C]的 [S0]的 [S1]我#的 [S2]的#电脑 [S3]比#我 [S4]电脑#还 [S5]我#的#电脑 [S6]u [S7]r#u [S8]u#n [S9]p#r [S10]n#d [S11]r#u#n [S12]的#u [T1]u M-E
+电脑 [C]电 [C]脑 [S0]电脑 [S1]的#电脑 [S2]电脑#还 [S3]我#的 [S4]还#慢 [S5]的#电脑#还 [S6]n [S7]u#n [S8]n#d [S9]r#u [S10]d#a [S11]u#n#d [S12]电脑#n [T1]n M-E
+还 [C]还 [S0]还 [S1]电脑#还 [S2]还#慢 [S3]的#电脑 [S4]慢#， [S5]电脑#还#慢 [S6]d [S7]n#d [S8]d#a [S9]u#n [S10]a#wp [S11]n#d#a [S12]还#d [T1]d M-E
+慢 [C]慢 [S0]慢 [S1]还#慢 [S2]慢#， [S3]电脑#还 [S4]，#键盘 [S5]还#慢#， [S6]a [S7]d#a [S8]a#wp [S9]n#d [S10]wp#n [S11]d#a#wp [S12]慢#a [T1]a E-E
+， [C]， [S0]， [S1]慢#， [S2]，#键盘 [S3]还#慢 [S4]键盘#不 [S5]慢#，#键盘 [S6]wp [S7]a#wp [S8]wp#n [S9]d#a [S10]n#d [S11]a#wp#n [S12]，#wp [T1]wp O
+键盘 [C]键 [C]盘 [S0]键盘 [S1]，#键盘 [S2]键盘#不 [S3]慢#， [S4]不#能 [S5]，#键盘#不 [S6]n [S7]wp#n [S8]n#d [S9]a#wp [S10]d#v [S11]wp#n#d [S12]键盘#n [T1]n S-A
+不 [C]不 [S0]不 [S1]键盘#不 [S2]不#能 [S3]，#键盘 [S4]能#打电话 [S5]键盘#不#能 [S6]d [S7]n#d [S8]d#v [S9]wp#n [S10]v#v [S11]n#d#v [S12]不#d [T1]d B-E
+能 [C]能 [S0]能 [S1]不#能 [S2]能#打电话 [S3]键盘#不 [S4]打电话#， [S5]不#能#打电话 [S6]v [S7]d#v [S8]v#v [S9]n#d [S10]v#wp [S11]d#v#v [S12]能#v [T1]v M-E
+打电话 [C]打 [C]电 [C]话 [S0]打电话 [S1]能#打电话 [S2]打电话#， [S3]不#能 [S4]，#听 [S5]能#打电话#， [S6]v [S7]v#v [S8]v#wp [S9]d#v [S10]wp#v [S11]v#v#wp [S12]打电话#v [T1]v E-E
+， [C]， [S0]， [S1]打电话#， [S2]，#听 [S3]能#打电话 [S4]听#音乐 [S5]打电话#，#听 [S6]wp [S7]v#wp [S8]wp#v [S9]v#v [S10]v#n [S11]v#wp#v [S12]，#wp [T1]wp O
+听 [C]听 [S0]听 [S1]，#听 [S2]听#音乐 [S3]打电话#， [S4]音乐#声音 [S5]，#听#音乐 [S6]v [S7]wp#v [S8]v#n [S9]v#wp [S10]n#n [S11]wp#v#n [S12]听#v [T1]v O
+音乐 [C]音 [C]乐 [S0]音乐 [S1]听#音乐 [S2]音乐#声音 [S3]，#听 [S4]声音#太 [S5]听#音乐#声音 [S6]n [S7]v#n [S8]n#n [S9]wp#v [S10]n#d [S11]v#n#n [S12]音乐#n [T1]n O
+声音 [C]声 [C]音 [S0]声音 [S1]音乐#声音 [S2]声音#太 [S3]听#音乐 [S4]太#小 [S5]音乐#声音#太 [S6]n [S7]n#n [S8]n#d [S9]v#n [S10]d#a [S11]n#n#d [S12]声音#n [T1]n S-A
+太 [C]太 [S0]太 [S1]声音#太 [S2]太#小 [S3]音乐#声音 [S4]小#了 [S5]声音#太#小 [S6]d [S7]n#d [S8]d#a [S9]n#n [S10]a#u [S11]n#d#a [S12]太#d [T1]d B-E
+小 [C]小 [S0]小 [S1]太#小 [S2]小#了 [S3]声音#太 [S4]了#， [S5]太#小#了 [S6]a [S7]d#a [S8]a#u [S9]n#d [S10]u#wp [S11]d#a#u [S12]小#a [T1]a E-E
+了 [C]了 [S0]了 [S1]小#了 [S2]了#， [S3]太#小 [S4]，#想 [S5]小#了#， [S6]u [S7]a#u [S8]u#wp [S9]d#a [S10]wp#v [S11]a#u#wp [S12]了#u [T1]u O
+， [C]， [S0]， [S1]了#， [S2]，#想 [S3]小#了 [S4]想#退货 [S5]了#，#想 [S6]wp [S7]u#wp [S8]wp#v [S9]a#u [S10]v#v [S11]u#wp#v [S12]，#wp [T1]wp O
+想 [C]想 [S0]想 [S1]，#想 [S2]想#退货 [S3]了#， [S4]退货#。 [S5]，#想#退货 [S6]v [S7]wp#v [S8]v#v [S9]u#wp [S10]v#wp [S11]wp#v#v [S12]想#v [T1]v O
+退货 [C]退 [C]货 [S0]退货 [S1]想#退货 [S2]退货#。 [S3]，#想 [S4]。#</s> [S5]想#退货#。 [S6]v [S7]v#v [S8]v#wp [S9]wp#v [S10]wp#null [S11]v#v#wp [S12]退货#v [T1]v O
+。 [C]。 [S0]。 [S1]退货#。 [S2]。#</s> [S3]想#退货 [S4]</s>#</s> [S5]退货#。#</s> [S6]wp [S7]v#wp [S8]wp#null [S9]v#v [S10]null#null [S11]v#wp#null [S12]。#wp [T1]wp O
+
+电池 [C]电 [C]池 [S0]电池 [S1]<s>#电池 [S2]电池#容量 [S3]<s>#<s> [S4]容量#小 [S5]<s>#电池#容量 [S6]n [S7]null#n [S8]n#n [S9]null#null [S10]n#a [S11]null#n#n [S12]电池#n [T1]n B-Q
+容量 [C]容 [C]量 [S0]容量 [S1]电池#容量 [S2]容量#小 [S3]<s>#电池 [S4]小#， [S5]电池#容量#小 [S6]n [S7]n#n [S8]n#a [S9]null#n [S10]a#wp [S11]n#n#a [S12]容量#n [T1]n M-Q
+小 [C]小 [S0]小 [S1]容量#小 [S2]小#， [S3]电池#容量 [S4]，#一直 [S5]容量#小#， [S6]a [S7]n#a [S8]a#wp [S9]n#n [S10]wp#d [S11]n#a#wp [S12]小#a [T1]a E-Q
+， [C]， [S0]， [S1]小#， [S2]，#一直 [S3]容量#小 [S4]一直#玩 [S5]小#，#一直 [S6]wp [S7]a#wp [S8]wp#d [S9]n#a [S10]d#v [S11]a#wp#d [S12]，#wp [T1]wp O
+一直 [C]一 [C]直 [S0]一直 [S1]，#一直 [S2]一直#玩 [S3]小#， [S4]玩#的 [S5]，#一直#玩 [S6]d [S7]wp#d [S8]d#v [S9]a#wp [S10]v#u [S11]wp#d#v [S12]一直#d [T1]d B-Q
+玩 [C]玩 [S0]玩 [S1]一直#玩 [S2]玩#的 [S3]，#一直 [S4]的#话 [S5]一直#玩#的 [S6]v [S7]d#v [S8]v#u [S9]wp#d [S10]u#n [S11]d#v#u [S12]玩#v [T1]v M-Q
+的 [C]的 [S0]的 [S1]玩#的 [S2]的#话 [S3]一直#玩 [S4]话#， [S5]玩#的#话 [S6]u [S7]v#u [S8]u#n [S9]d#v [S10]n#wp [S11]v#u#n [S12]的#u [T1]u M-Q
+话 [C]话 [S0]话 [S1]的#话 [S2]话#， [S3]玩#的 [S4]，#耗电 [S5]的#话#， [S6]n [S7]u#n [S8]n#wp [S9]v#u [S10]wp#v [S11]u#n#wp [S12]话#n [T1]n E-Q
+， [C]， [S0]， [S1]话#， [S2]，#耗电 [S3]的#话 [S4]耗电#快 [S5]话#，#耗电 [S6]wp [S7]n#wp [S8]wp#v [S9]u#n [S10]v#a [S11]n#wp#v [S12]，#wp [T1]wp O
+耗电 [C]耗 [C]电 [S0]耗电 [S1]，#耗电 [S2]耗电#快 [S3]话#， [S4]快#</s> [S5]，#耗电#快 [S6]v [S7]wp#v [S8]v#a [S9]n#wp [S10]a#null [S11]wp#v#a [S12]耗电#v [T1]v S-A
+快 [C]快 [S0]快 [S1]耗电#快 [S2]快#</s> [S3]，#耗电 [S4]</s>#</s> [S5]耗电#快#</s> [S6]a [S7]v#a [S8]a#null [S9]wp#v [S10]null#null [S11]v#a#null [S12]快#a [T1]a S-E
+
+关于 [C]关 [C]于 [S0]关于 [S1]<s>#关于 [S2]关于#电池 [S3]<s>#<s> [S4]电池#方面 [S5]<s>#关于#电池 [S6]p [S7]null#p [S8]p#n [S9]null#null [S10]n#n [S11]null#p#n [S12]关于#p [T1]p O
+电池 [C]电 [C]池 [S0]电池 [S1]关于#电池 [S2]电池#方面 [S3]<s>#关于 [S4]方面#， [S5]关于#电池#方面 [S6]n [S7]p#n [S8]n#n [S9]null#p [S10]n#wp [S11]p#n#n [S12]电池#n [T1]n S-A
+方面 [C]方 [C]面 [S0]方面 [S1]电池#方面 [S2]方面#， [S3]关于#电池 [S4]，#我 [S5]电池#方面#， [S6]n [S7]n#n [S8]n#wp [S9]p#n [S10]wp#r [S11]n#n#wp [S12]方面#n [T1]n O
+， [C]， [S0]， [S1]方面#， [S2]，#我 [S3]电池#方面 [S4]我#平时 [S5]方面#，#我 [S6]wp [S7]n#wp [S8]wp#r [S9]n#n [S10]r#nt [S11]n#wp#r [S12]，#wp [T1]wp O
+我 [C]我 [S0]我 [S1]，#我 [S2]我#平时 [S3]方面#， [S4]平时#一般 [S5]，#我#平时 [S6]r [S7]wp#r [S8]r#nt [S9]n#wp [S10]nt#a [S11]wp#r#nt [S12]我#r [T1]r O
+平时 [C]平 [C]时 [S0]平时 [S1]我#平时 [S2]平时#一般 [S3]，#我 [S4]一般#都 [S5]我#平时#一般 [S6]nt [S7]r#nt [S8]nt#a [S9]wp#r [S10]a#d [S11]r#nt#a [S12]平时#nt [T1]nt O
+一般 [C]一 [C]般 [S0]一般 [S1]平时#一般 [S2]一般#都 [S3]我#平时 [S4]都#用 [S5]平时#一般#都 [S6]a [S7]nt#a [S8]a#d [S9]r#nt [S10]d#p [S11]nt#a#d [S12]一般#a [T1]a O
+都 [C]都 [S0]都 [S1]一般#都 [S2]都#用 [S3]平时#一般 [S4]用#电脑 [S5]一般#都#用 [S6]d [S7]a#d [S8]d#p [S9]nt#a [S10]p#n [S11]a#d#p [S12]都#d [T1]d O
+用 [C]用 [S0]用 [S1]都#用 [S2]用#电脑 [S3]一般#都 [S4]电脑#上网 [S5]都#用#电脑 [S6]p [S7]d#p [S8]p#n [S9]a#d [S10]n#v [S11]d#p#n [S12]用#p [T1]p O
+电脑 [C]电 [C]脑 [S0]电脑 [S1]用#电脑 [S2]电脑#上网 [S3]都#用 [S4]上网#， [S5]用#电脑#上网 [S6]n [S7]p#n [S8]n#v [S9]d#p [S10]v#wp [S11]p#n#v [S12]电脑#n [T1]n O
+上网 [C]上 [C]网 [S0]上网 [S1]电脑#上网 [S2]上网#， [S3]用#电脑 [S4]，#5233 [S5]电脑#上网#， [S6]v [S7]n#v [S8]v#wp [S9]p#n [S10]wp#m [S11]n#v#wp [S12]上网#v [T1]v O
+， [C]， [S0]， [S1]上网#， [S2]，#5233 [S3]电脑#上网 [S4]5233#待机 [S5]上网#，#5233 [S6]wp [S7]v#wp [S8]wp#m [S9]n#v [S10]m#n [S11]v#wp#m [S12]，#wp [T1]wp O
+5233 [C]5 [C]2 [C]3 [C]3 [S0]5233 [S1]，#5233 [S2]5233#待机 [S3]上网#， [S4]待机#的 [S5]，#5233#待机 [S6]m [S7]wp#m [S8]m#n [S9]v#wp [S10]n#u [S11]wp#m#n [S12]5233#m [T1]m O
+待机 [C]待 [C]机 [S0]待机 [S1]5233#待机 [S2]待机#的 [S3]，#5233 [S4]的#话 [S5]5233#待机#的 [S6]n [S7]m#n [S8]n#u [S9]wp#m [S10]u#n [S11]m#n#u [S12]待机#n [T1]n B-Q
+的 [C]的 [S0]的 [S1]待机#的 [S2]的#话 [S3]5233#待机 [S4]话#5 [S5]待机#的#话 [S6]u [S7]n#u [S8]u#n [S9]m#n [S10]n#m [S11]n#u#n [S12]的#u [T1]u M-Q
+话 [C]话 [S0]话 [S1]的#话 [S2]话#5 [S3]待机#的 [S4]5#, [S5]的#话#5 [S6]n [S7]u#n [S8]n#m [S9]n#u [S10]m#wp [S11]u#n#m [S12]话#n [T1]n M-Q
+5 [C]5 [S0]5 [S1]话#5 [S2]5#, [S3]的#话 [S4],#6 [S5]话#5#, [S6]m [S7]n#m [S8]m#wp [S9]u#n [S10]wp#m [S11]n#m#wp [S12]5#m [T1]m M-Q
+, [C], [S0], [S1]5#, [S2],#6 [S3]话#5 [S4]6#天 [S5]5#,#6 [S6]wp [S7]m#wp [S8]wp#m [S9]n#m [S10]m#q [S11]m#wp#m [S12],#wp [T1]wp M-Q
+6 [C]6 [S0]6 [S1],#6 [S2]6#天 [S3]5#, [S4]天#完全 [S5],#6#天 [S6]m [S7]wp#m [S8]m#q [S9]m#wp [S10]q#a [S11]wp#m#q [S12]6#m [T1]m M-Q
+天 [C]天 [S0]天 [S1]6#天 [S2]天#完全 [S3],#6 [S4]完全#没有 [S5]6#天#完全 [S6]q [S7]m#q [S8]q#a [S9]wp#m [S10]a#v [S11]m#q#a [S12]天#q [T1]q M-Q
+完全 [C]完 [C]全 [S0]完全 [S1]天#完全 [S2]完全#没有 [S3]6#天 [S4]没有#问题 [S5]天#完全#没有 [S6]a [S7]q#a [S8]a#v [S9]m#q [S10]v#n [S11]q#a#v [S12]完全#a [T1]a M-Q
+没有 [C]没 [C]有 [S0]没有 [S1]完全#没有 [S2]没有#问题 [S3]天#完全 [S4]问题#</s> [S5]完全#没有#问题 [S6]v [S7]a#v [S8]v#n [S9]q#a [S10]n#null [S11]a#v#n [S12]没有#v [T1]v M-Q
+问题 [C]问 [C]题 [S0]问题 [S1]没有#问题 [S2]问题#</s> [S3]完全#没有 [S4]</s>#</s> [S5]没有#问题#</s> [S6]n [S7]v#n [S8]n#null [S9]a#v [S10]null#null [S11]v#n#null [S12]问题#n [T1]n E-Q
+
+虽说 [C]虽 [C]说 [S0]虽说 [S1]<s>#虽说 [S2]虽说#只有 [S3]<s>#<s> [S4]只有#1000 [S5]<s>#虽说#只有 [S6]c [S7]null#c [S8]c#c [S9]null#null [S10]c#m [S11]null#c#c [S12]虽说#c [T1]c O
+只有 [C]只 [C]有 [S0]只有 [S1]虽说#只有 [S2]只有#1000 [S3]<s>#虽说 [S4]1000#毫安 [S5]虽说#只有#1000 [S6]c [S7]c#c [S8]c#m [S9]null#c [S10]m#q [S11]c#c#m [S12]只有#c [T1]c B-Q
+1000 [C]1 [C]0 [C]0 [C]0 [S0]1000 [S1]只有#1000 [S2]1000#毫安 [S3]虽说#只有 [S4]毫安#的 [S5]只有#1000#毫安 [S6]m [S7]c#m [S8]m#q [S9]c#c [S10]q#u [S11]c#m#q [S12]1000#m [T1]m M-Q
+毫安 [C]毫 [C]安 [S0]毫安 [S1]1000#毫安 [S2]毫安#的 [S3]只有#1000 [S4]的#电池 [S5]1000#毫安#的 [S6]q [S7]m#q [S8]q#u [S9]c#m [S10]u#n [S11]m#q#u [S12]毫安#q [T1]q M-Q
+的 [C]的 [S0]的 [S1]毫安#的 [S2]的#电池 [S3]1000#毫安 [S4]电池#， [S5]毫安#的#电池 [S6]u [S7]q#u [S8]u#n [S9]m#q [S10]n#wp [S11]q#u#n [S12]的#u [T1]u M-Q
+电池 [C]电 [C]池 [S0]电池 [S1]的#电池 [S2]电池#， [S3]毫安#的 [S4]，#但 [S5]的#电池#， [S6]n [S7]u#n [S8]n#wp [S9]q#u [S10]wp#c [S11]u#n#wp [S12]电池#n [T1]n E-Q
+， [C]， [S0]， [S1]电池#， [S2]，#但 [S3]的#电池 [S4]但#由于 [S5]电池#，#但 [S6]wp [S7]n#wp [S8]wp#c [S9]u#n [S10]c#c [S11]n#wp#c [S12]，#wp [T1]wp O
+但 [C]但 [S0]但 [S1]，#但 [S2]但#由于 [S3]电池#， [S4]由于#CPU [S5]，#但#由于 [S6]c [S7]wp#c [S8]c#c [S9]n#wp [S10]c#ws [S11]wp#c#c [S12]但#c [T1]c O
+由于 [C]由 [C]于 [S0]由于 [S1]但#由于 [S2]由于#CPU [S3]，#但 [S4]CPU#会 [S5]但#由于#CPU [S6]c [S7]c#c [S8]c#ws [S9]wp#c [S10]ws#v [S11]c#c#ws [S12]由于#c [T1]c B-Q
+CPU [C]C [C]P [C]U [S0]CPU [S1]由于#CPU [S2]CPU#会 [S3]但#由于 [S4]会#变频 [S5]由于#CPU#会 [S6]ws [S7]c#ws [S8]ws#v [S9]c#c [S10]v#v [S11]c#ws#v [S12]CPU#ws [T1]ws M-Q
+会 [C]会 [S0]会 [S1]CPU#会 [S2]会#变频 [S3]由于#CPU [S4]变频#， [S5]CPU#会#变频 [S6]v [S7]ws#v [S8]v#v [S9]c#ws [S10]v#wp [S11]ws#v#v [S12]会#v [T1]v M-Q
+变频 [C]变 [C]频 [S0]变频 [S1]会#变频 [S2]变频#， [S3]CPU#会 [S4]，#因此 [S5]会#变频#， [S6]v [S7]v#v [S8]v#wp [S9]ws#v [S10]wp#c [S11]v#v#wp [S12]变频#v [T1]v E-Q
+， [C]， [S0]， [S1]变频#， [S2]，#因此 [S3]会#变频 [S4]因此#待机 [S5]变频#，#因此 [S6]wp [S7]v#wp [S8]wp#c [S9]v#v [S10]c#n [S11]v#wp#c [S12]，#wp [T1]wp O
+因此 [C]因 [C]此 [S0]因此 [S1]，#因此 [S2]因此#待机 [S3]变频#， [S4]待机#时间 [S5]，#因此#待机 [S6]c [S7]wp#c [S8]c#n [S9]v#wp [S10]n#n [S11]wp#c#n [S12]因此#c [T1]c O
+待机 [C]待 [C]机 [S0]待机 [S1]因此#待机 [S2]待机#时间 [S3]，#因此 [S4]时间#比 [S5]因此#待机#时间 [S6]n [S7]c#n [S8]n#n [S9]wp#c [S10]n#p [S11]c#n#n [S12]待机#n [T1]n B-A
+时间 [C]时 [C]间 [S0]时间 [S1]待机#时间 [S2]时间#比 [S3]因此#待机 [S4]比#5230 [S5]待机#时间#比 [S6]n [S7]n#n [S8]n#p [S9]c#n [S10]p#m [S11]n#n#p [S12]时间#n [T1]n E-A
+比 [C]比 [S0]比 [S1]时间#比 [S2]比#5230 [S3]待机#时间 [S4]5230#（ [S5]时间#比#5230 [S6]p [S7]n#p [S8]p#m [S9]n#n [S10]m#wp [S11]n#p#m [S12]比#p [T1]p B-E
+5230 [C]5 [C]2 [C]3 [C]0 [S0]5230 [S1]比#5230 [S2]5230#（ [S3]时间#比 [S4]（#5230 [S5]比#5230#（ [S6]m [S7]p#m [S8]m#wp [S9]n#p [S10]wp#m [S11]p#m#wp [S12]5230#m [T1]m M-E
+（ [C]（ [S0]（ [S1]5230#（ [S2]（#5230 [S3]比#5230 [S4]5230#电池 [S5]5230#（#5230 [S6]wp [S7]m#wp [S8]wp#m [S9]p#m [S10]m#n [S11]m#wp#m [S12]（#wp [T1]wp M-E
+5230 [C]5 [C]2 [C]3 [C]0 [S0]5230 [S1]（#5230 [S2]5230#电池 [S3]5230#（ [S4]电池#的 [S5]（#5230#电池 [S6]m [S7]wp#m [S8]m#n [S9]m#wp [S10]n#u [S11]wp#m#n [S12]5230#m [T1]m M-E
+电池 [C]电 [C]池 [S0]电池 [S1]5230#电池 [S2]电池#的 [S3]（#5230 [S4]的#1320 [S5]5230#电池#的 [S6]n [S7]m#n [S8]n#u [S9]wp#m [S10]u#m [S11]m#n#u [S12]电池#n [T1]n M-E
+的 [C]的 [S0]的 [S1]电池#的 [S2]的#1320 [S3]5230#电池 [S4]1320#毫安 [S5]电池#的#1320 [S6]u [S7]n#u [S8]u#m [S9]m#n [S10]m#q [S11]n#u#m [S12]的#u [T1]u M-E
+1320 [C]1 [C]3 [C]2 [C]0 [S0]1320 [S1]的#1320 [S2]1320#毫安 [S3]电池#的 [S4]毫安#） [S5]的#1320#毫安 [S6]m [S7]u#m [S8]m#q [S9]n#u [S10]q#wp [S11]u#m#q [S12]1320#m [T1]m M-E
+毫安 [C]毫 [C]安 [S0]毫安 [S1]1320#毫安 [S2]毫安#） [S3]的#1320 [S4]）#待机 [S5]1320#毫安#） [S6]q [S7]m#q [S8]q#wp [S9]u#m [S10]wp#n [S11]m#q#wp [S12]毫安#q [T1]q M-E
+） [C]） [S0]） [S1]毫安#） [S2]）#待机 [S3]1320#毫安 [S4]待机#时间 [S5]毫安#）#待机 [S6]wp [S7]q#wp [S8]wp#n [S9]m#q [S10]n#n [S11]q#wp#n [S12]）#wp [T1]wp M-E
+待机 [C]待 [C]机 [S0]待机 [S1]）#待机 [S2]待机#时间 [S3]毫安#） [S4]时间#还 [S5]）#待机#时间 [S6]n [S7]wp#n [S8]n#n [S9]q#wp [S10]n#d [S11]wp#n#n [S12]待机#n [T1]n M-E
+时间 [C]时 [C]间 [S0]时间 [S1]待机#时间 [S2]时间#还 [S3]）#待机 [S4]还#长 [S5]待机#时间#还 [S6]n [S7]n#n [S8]n#d [S9]wp#n [S10]d#a [S11]n#n#d [S12]时间#n [T1]n M-E
+还 [C]还 [S0]还 [S1]时间#还 [S2]还#长 [S3]待机#时间 [S4]长#。 [S5]时间#还#长 [S6]d [S7]n#d [S8]d#a [S9]n#n [S10]a#wp [S11]n#d#a [S12]还#d [T1]d M-E
+长 [C]长 [S0]长 [S1]还#长 [S2]长#。 [S3]时间#还 [S4]。#</s> [S5]还#长#。 [S6]a [S7]d#a [S8]a#wp [S9]n#d [S10]wp#null [S11]d#a#wp [S12]长#a [T1]a E-E
+。 [C]。 [S0]。 [S1]长#。 [S2]。#</s> [S3]还#长 [S4]</s>#</s> [S5]长#。#</s> [S6]wp [S7]a#wp [S8]wp#null [S9]d#a [S10]null#null [S11]a#wp#null [S12]。#wp [T1]wp O
+
+看 [C]看 [S0]看 [S1]<s>#看 [S2]看#很多 [S3]<s>#<s> [S4]很多#人 [S5]<s>#看#很多 [S6]v [S7]null#v [S8]v#m [S9]null#null [S10]m#n [S11]null#v#m [S12]看#v [T1]v O
+很多 [C]很 [C]多 [S0]很多 [S1]看#很多 [S2]很多#人 [S3]<s>#看 [S4]人#都 [S5]看#很多#人 [S6]m [S7]v#m [S8]m#n [S9]null#v [S10]n#d [S11]v#m#n [S12]很多#m [T1]m O
+人 [C]人 [S0]人 [S1]很多#人 [S2]人#都 [S3]看#很多 [S4]都#说 [S5]很多#人#都 [S6]n [S7]m#n [S8]n#d [S9]v#m [S10]d#v [S11]m#n#d [S12]人#n [T1]n O
+都 [C]都 [S0]都 [S1]人#都 [S2]都#说 [S3]很多#人 [S4]说#电池 [S5]人#都#说 [S6]d [S7]n#d [S8]d#v [S9]m#n [S10]v#n [S11]n#d#v [S12]都#d [T1]d O
+说 [C]说 [S0]说 [S1]都#说 [S2]说#电池 [S3]人#都 [S4]电池#问题 [S5]都#说#电池 [S6]v [S7]d#v [S8]v#n [S9]n#d [S10]n#n [S11]d#v#n [S12]说#v [T1]v O
+电池 [C]电 [C]池 [S0]电池 [S1]说#电池 [S2]电池#问题 [S3]都#说 [S4]问题#， [S5]说#电池#问题 [S6]n [S7]v#n [S8]n#n [S9]d#v [S10]n#wp [S11]v#n#n [S12]电池#n [T1]n O
+问题 [C]问 [C]题 [S0]问题 [S1]电池#问题 [S2]问题#， [S3]说#电池 [S4]，#我 [S5]电池#问题#， [S6]n [S7]n#n [S8]n#wp [S9]v#n [S10]wp#r [S11]n#n#wp [S12]问题#n [T1]n O
+， [C]， [S0]， [S1]问题#， [S2]，#我 [S3]电池#问题 [S4]我#不 [S5]问题#，#我 [S6]wp [S7]n#wp [S8]wp#r [S9]n#n [S10]r#d [S11]n#wp#r [S12]，#wp [T1]wp O
+我 [C]我 [S0]我 [S1]，#我 [S2]我#不 [S3]问题#， [S4]不#认同 [S5]，#我#不 [S6]r [S7]wp#r [S8]r#d [S9]n#wp [S10]d#v [S11]wp#r#d [S12]我#r [T1]r O
+不 [C]不 [S0]不 [S1]我#不 [S2]不#认同 [S3]，#我 [S4]认同#， [S5]我#不#认同 [S6]d [S7]r#d [S8]d#v [S9]wp#r [S10]v#wp [S11]r#d#v [S12]不#d [T1]d O
+认同 [C]认 [C]同 [S0]认同 [S1]不#认同 [S2]认同#， [S3]我#不 [S4]，#电池 [S5]不#认同#， [S6]v [S7]d#v [S8]v#wp [S9]r#d [S10]wp#n [S11]d#v#wp [S12]认同#v [T1]v O
+， [C]， [S0]， [S1]认同#， [S2]，#电池 [S3]不#认同 [S4]电池#不 [S5]认同#，#电池 [S6]wp [S7]v#wp [S8]wp#n [S9]d#v [S10]n#d [S11]v#wp#n [S12]，#wp [T1]wp O
+电池 [C]电 [C]池 [S0]电池 [S1]，#电池 [S2]电池#不 [S3]认同#， [S4]不#够 [S5]，#电池#不 [S6]n [S7]wp#n [S8]n#d [S9]v#wp [S10]d#v [S11]wp#n#d [S12]电池#n [T1]n S-A
+不 [C]不 [S0]不 [S1]电池#不 [S2]不#够 [S3]，#电池 [S4]够#用 [S5]电池#不#够 [S6]d [S7]n#d [S8]d#v [S9]wp#n [S10]v#p [S11]n#d#v [S12]不#d [T1]d B-E
+够 [C]够 [S0]够 [S1]不#够 [S2]够#用 [S3]电池#不 [S4]用#那 [S5]不#够#用 [S6]v [S7]d#v [S8]v#p [S9]n#d [S10]p#r [S11]d#v#p [S12]够#v [T1]v M-E
+用 [C]用 [S0]用 [S1]够#用 [S2]用#那 [S3]不#够 [S4]那#是 [S5]够#用#那 [S6]p [S7]v#p [S8]p#r [S9]d#v [S10]r#v [S11]v#p#r [S12]用#p [T1]p E-E
+那 [C]那 [S0]那 [S1]用#那 [S2]那#是 [S3]够#用 [S4]是#因为 [S5]用#那#是 [S6]r [S7]p#r [S8]r#v [S9]v#p [S10]v#p [S11]p#r#v [S12]那#r [T1]r O
+是 [C]是 [S0]是 [S1]那#是 [S2]是#因为 [S3]用#那 [S4]因为#安卓 [S5]那#是#因为 [S6]v [S7]r#v [S8]v#p [S9]p#r [S10]p#nz [S11]r#v#p [S12]是#v [T1]v O
+因为 [C]因 [C]为 [S0]因为 [S1]是#因为 [S2]因为#安卓 [S3]那#是 [S4]安卓#系统 [S5]是#因为#安卓 [S6]p [S7]v#p [S8]p#nz [S9]r#v [S10]nz#n [S11]v#p#nz [S12]因为#p [T1]p B-Q
+安卓 [C]安 [C]卓 [S0]安卓 [S1]因为#安卓 [S2]安卓#系统 [S3]是#因为 [S4]系统#造成 [S5]因为#安卓#系统 [S6]nz [S7]p#nz [S8]nz#n [S9]v#p [S10]n#v [S11]p#nz#n [S12]安卓#nz [T1]nz M-Q
+系统 [C]系 [C]统 [S0]系统 [S1]安卓#系统 [S2]系统#造成 [S3]因为#安卓 [S4]造成#的 [S5]安卓#系统#造成 [S6]n [S7]nz#n [S8]n#v [S9]p#nz [S10]v#u [S11]nz#n#v [S12]系统#n [T1]n M-Q
+造成 [C]造 [C]成 [S0]造成 [S1]系统#造成 [S2]造成#的 [S3]安卓#系统 [S4]的#和 [S5]系统#造成#的 [S6]v [S7]n#v [S8]v#u [S9]nz#n [S10]u#c [S11]n#v#u [S12]造成#v [T1]v M-Q
+的 [C]的 [S0]的 [S1]造成#的 [S2]的#和 [S3]系统#造成 [S4]和#手机 [S5]造成#的#和 [S6]u [S7]v#u [S8]u#c [S9]n#v [S10]c#n [S11]v#u#c [S12]的#u [T1]u E-Q
+和 [C]和 [S0]和 [S1]的#和 [S2]和#手机 [S3]造成#的 [S4]手机#有 [S5]的#和#手机 [S6]c [S7]u#c [S8]c#n [S9]v#u [S10]n#v [S11]u#c#n [S12]和#c [T1]c O
+手机 [C]手 [C]机 [S0]手机 [S1]和#手机 [S2]手机#有 [S3]的#和 [S4]有#什么 [S5]和#手机#有 [S6]n [S7]c#n [S8]n#v [S9]u#c [S10]v#r [S11]c#n#v [S12]手机#n [T1]n O
+有 [C]有 [S0]有 [S1]手机#有 [S2]有#什么 [S3]和#手机 [S4]什么#关系 [S5]手机#有#什么 [S6]v [S7]n#v [S8]v#r [S9]c#n [S10]r#n [S11]n#v#r [S12]有#v [T1]v O
+什么 [C]什 [C]么 [S0]什么 [S1]有#什么 [S2]什么#关系 [S3]手机#有 [S4]关系#。 [S5]有#什么#关系 [S6]r [S7]v#r [S8]r#n [S9]n#v [S10]n#wp [S11]v#r#n [S12]什么#r [T1]r O
+关系 [C]关 [C]系 [S0]关系 [S1]什么#关系 [S2]关系#。 [S3]有#什么 [S4]。#</s> [S5]什么#关系#。 [S6]n [S7]r#n [S8]n#wp [S9]v#r [S10]wp#null [S11]r#n#wp [S12]关系#n [T1]n O
+。 [C]。 [S0]。 [S1]关系#。 [S2]。#</s> [S3]什么#关系 [S4]</s>#</s> [S5]关系#。#</s> [S6]wp [S7]n#wp [S8]wp#null [S9]r#n [S10]null#null [S11]n#wp#null [S12]。#wp [T1]wp O
+
+反应 [C]反 [C]应 [S0]反应 [S1]<s>#反应 [S2]反应#不 [S3]<s>#<s> [S4]不#够 [S5]<s>#反应#不 [S6]v [S7]null#v [S8]v#d [S9]null#null [S10]d#v [S11]null#v#d [S12]反应#v [T1]v S-A
+不 [C]不 [S0]不 [S1]反应#不 [S2]不#够 [S3]<s>#反应 [S4]够#快 [S5]反应#不#够 [S6]d [S7]v#d [S8]d#v [S9]null#v [S10]v#a [S11]v#d#v [S12]不#d [T1]d B-E
+够 [C]够 [S0]够 [S1]不#够 [S2]够#快 [S3]反应#不 [S4]快#, [S5]不#够#快 [S6]v [S7]d#v [S8]v#a [S9]v#d [S10]a#wp [S11]d#v#a [S12]够#v [T1]v M-E
+快 [C]快 [S0]快 [S1]够#快 [S2]快#, [S3]不#够 [S4],#可能 [S5]够#快#, [S6]a [S7]v#a [S8]a#wp [S9]d#v [S10]wp#v [S11]v#a#wp [S12]快#a [T1]a E-E
+, [C], [S0], [S1]快#, [S2],#可能 [S3]够#快 [S4]可能#是 [S5]快#,#可能 [S6]wp [S7]a#wp [S8]wp#v [S9]v#a [S10]v#v [S11]a#wp#v [S12],#wp [T1]wp O
+可能 [C]可 [C]能 [S0]可能 [S1],#可能 [S2]可能#是 [S3]快#, [S4]是#全 [S5],#可能#是 [S6]v [S7]wp#v [S8]v#v [S9]a#wp [S10]v#a [S11]wp#v#v [S12]可能#v [T1]v B-Q
+是 [C]是 [S0]是 [S1]可能#是 [S2]是#全 [S3],#可能 [S4]全#触屏 [S5]可能#是#全 [S6]v [S7]v#v [S8]v#a [S9]wp#v [S10]a#n [S11]v#v#a [S12]是#v [T1]v M-Q
+全 [C]全 [S0]全 [S1]是#全 [S2]全#触屏 [S3]可能#是 [S4]触屏#的 [S5]是#全#触屏 [S6]a [S7]v#a [S8]a#n [S9]v#v [S10]n#u [S11]v#a#n [S12]全#a [T1]a M-Q
+触屏 [C]触 [C]屏 [S0]触屏 [S1]全#触屏 [S2]触屏#的 [S3]是#全 [S4]的#原因 [S5]全#触屏#的 [S6]n [S7]a#n [S8]n#u [S9]v#a [S10]u#n [S11]a#n#u [S12]触屏#n [T1]n M-Q
+的 [C]的 [S0]的 [S1]触屏#的 [S2]的#原因 [S3]全#触屏 [S4]原因#( [S5]触屏#的#原因 [S6]u [S7]n#u [S8]u#n [S9]a#n [S10]n#wp [S11]n#u#n [S12]的#u [T1]u M-Q
+原因 [C]原 [C]因 [S0]原因 [S1]的#原因 [S2]原因#( [S3]触屏#的 [S4](#和 [S5]的#原因#( [S6]n [S7]u#n [S8]n#wp [S9]n#u [S10]wp#c [S11]u#n#wp [S12]原因#n [T1]n E-Q
+( [C]( [S0]( [S1]原因#( [S2](#和 [S3]的#原因 [S4]和#E63 [S5]原因#(#和 [S6]wp [S7]n#wp [S8]wp#c [S9]u#n [S10]c#ws [S11]n#wp#c [S12](#wp [T1]wp O
+和 [C]和 [S0]和 [S1](#和 [S2]和#E63 [S3]原因#( [S4]E63#比 [S5](#和#E63 [S6]c [S7]wp#c [S8]c#ws [S9]n#wp [S10]ws#v [S11]wp#c#ws [S12]和#c [T1]c B-Q
+E63 [C]E [C]6 [C]3 [S0]E63 [S1]和#E63 [S2]E63#比 [S3](#和 [S4]比#起来 [S5]和#E63#比 [S6]ws [S7]c#ws [S8]ws#v [S9]wp#c [S10]v#v [S11]c#ws#v [S12]E63#ws [T1]ws M-Q
+比 [C]比 [S0]比 [S1]E63#比 [S2]比#起来 [S3]和#E63 [S4]起来#慢 [S5]E63#比#起来 [S6]v [S7]ws#v [S8]v#v [S9]c#ws [S10]v#a [S11]ws#v#v [S12]比#v [T1]v M-Q
+起来 [C]起 [C]来 [S0]起来 [S1]比#起来 [S2]起来#慢 [S3]E63#比 [S4]慢#不 [S5]比#起来#慢 [S6]v [S7]v#v [S8]v#a [S9]ws#v [S10]a#d [S11]v#v#a [S12]起来#v [T1]v M-Q
+慢 [C]慢 [S0]慢 [S1]起来#慢 [S2]慢#不 [S3]比#起来 [S4]不#少 [S5]起来#慢#不 [S6]a [S7]v#a [S8]a#d [S9]v#v [S10]d#a [S11]v#a#d [S12]慢#a [T1]a M-Q
+不 [C]不 [S0]不 [S1]慢#不 [S2]不#少 [S3]起来#慢 [S4]少#, [S5]慢#不#少 [S6]d [S7]a#d [S8]d#a [S9]v#a [S10]a#wp [S11]a#d#a [S12]不#d [T1]d M-Q
+少 [C]少 [S0]少 [S1]不#少 [S2]少#, [S3]慢#不 [S4],#但 [S5]不#少#, [S6]a [S7]d#a [S8]a#wp [S9]a#d [S10]wp#c [S11]d#a#wp [S12]少#a [T1]a M-Q
+, [C], [S0], [S1]少#, [S2],#但 [S3]不#少 [S4]但#E63 [S5]少#,#但 [S6]wp [S7]a#wp [S8]wp#c [S9]d#a [S10]c#ws [S11]a#wp#c [S12],#wp [T1]wp M-Q
+但 [C]但 [S0]但 [S1],#但 [S2]但#E63 [S3]少#, [S4]E63#的 [S5],#但#E63 [S6]c [S7]wp#c [S8]c#ws [S9]a#wp [S10]ws#u [S11]wp#c#ws [S12]但#c [T1]c M-Q
+E63 [C]E [C]6 [C]3 [S0]E63 [S1]但#E63 [S2]E63#的 [S3],#但 [S4]的#处理器 [S5]但#E63#的 [S6]ws [S7]c#ws [S8]ws#u [S9]wp#c [S10]u#n [S11]c#ws#u [S12]E63#ws [T1]ws M-Q
+的 [C]的 [S0]的 [S1]E63#的 [S2]的#处理器 [S3]但#E63 [S4]处理器#比 [S5]E63#的#处理器 [S6]u [S7]ws#u [S8]u#n [S9]c#ws [S10]n#p [S11]ws#u#n [S12]的#u [T1]u M-Q
+处理器 [C]处 [C]理 [C]器 [S0]处理器 [S1]的#处理器 [S2]处理器#比 [S3]E63#的 [S4]比#5230 [S5]的#处理器#比 [S6]n [S7]u#n [S8]n#p [S9]ws#u [S10]p#m [S11]u#n#p [S12]处理器#n [T1]n M-Q
+比 [C]比 [S0]比 [S1]处理器#比 [S2]比#5230 [S3]的#处理器 [S4]5230#的 [S5]处理器#比#5230 [S6]p [S7]n#p [S8]p#m [S9]u#n [S10]m#u [S11]n#p#m [S12]比#p [T1]p M-Q
+5230 [C]5 [C]2 [C]3 [C]0 [S0]5230 [S1]比#5230 [S2]5230#的 [S3]处理器#比 [S4]的#还要 [S5]比#5230#的 [S6]m [S7]p#m [S8]m#u [S9]n#p [S10]u#v [S11]p#m#u [S12]5230#m [T1]m M-Q
+的 [C]的 [S0]的 [S1]5230#的 [S2]的#还要 [S3]比#5230 [S4]还要#慢 [S5]5230#的#还要 [S6]u [S7]m#u [S8]u#v [S9]p#m [S10]v#a [S11]m#u#v [S12]的#u [T1]u M-Q
+还要 [C]还 [C]要 [S0]还要 [S1]的#还要 [S2]还要#慢 [S3]5230#的 [S4]慢#一点 [S5]的#还要#慢 [S6]v [S7]u#v [S8]v#a [S9]m#u [S10]a#m [S11]u#v#a [S12]还要#v [T1]v M-Q
+慢 [C]慢 [S0]慢 [S1]还要#慢 [S2]慢#一点 [S3]的#还要 [S4]一点#的 [S5]还要#慢#一点 [S6]a [S7]v#a [S8]a#m [S9]u#v [S10]m#u [S11]v#a#m [S12]慢#a [T1]a M-Q
+一点 [C]一 [C]点 [S0]一点 [S1]慢#一点 [S2]一点#的 [S3]还要#慢 [S4]的#) [S5]慢#一点#的 [S6]m [S7]a#m [S8]m#u [S9]v#a [S10]u#wp [S11]a#m#u [S12]一点#m [T1]m M-Q
+的 [C]的 [S0]的 [S1]一点#的 [S2]的#) [S3]慢#一点 [S4])#。 [S5]一点#的#) [S6]u [S7]m#u [S8]u#wp [S9]a#m [S10]wp#wp [S11]m#u#wp [S12]的#u [T1]u E-Q
+) [C]) [S0]) [S1]的#) [S2])#。 [S3]一点#的 [S4]。#</s> [S5]的#)#。 [S6]wp [S7]u#wp [S8]wp#wp [S9]m#u [S10]wp#null [S11]u#wp#wp [S12])#wp [T1]wp O
+。 [C]。 [S0]。 [S1])#。 [S2]。#</s> [S3]的#) [S4]</s>#</s> [S5])#。#</s> [S6]wp [S7]wp#wp [S8]wp#null [S9]u#wp [S10]null#null [S11]wp#wp#null [S12]。#wp [T1]wp O
