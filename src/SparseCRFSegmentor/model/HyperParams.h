@@ -8,7 +8,7 @@
 using namespace nr;
 using namespace std;
 
-struct HyperParams {
+struct HyperParams{
 
 	// must assign
 	int wordcontext;
@@ -26,20 +26,18 @@ struct HyperParams {
 	//auto generated
 	int wordwindow;
 	int wordDim;
-	int charDim;
 	vector<int> typeDims;
 	int unitsize;
 	int inputsize;
 	int labelSize;
 
-
 public:
-	HyperParams() {
+	HyperParams(){
 		bAssigned = false;
 	}
 
 public:
-	void setRequared(Options& opt) {
+	void setRequared(Options& opt){
 		wordcontext = opt.wordcontext;
 		hiddensize = opt.hiddenSize;
 		rnnhiddensize = opt.rnnHiddenSize;
@@ -51,52 +49,50 @@ public:
 		bAssigned = true;
 	}
 
-	void clear() {
+	void clear(){
 		bAssigned = false;
 	}
 
-	bool bValid() {
+	bool bValid(){
 		return bAssigned;
 	}
 
-	void saveModel(ofstream& os) const {
-		os << wordcontext << std::endl;
-		os << hiddensize << std::endl;
-		os << rnnhiddensize << std::endl;
-		os << dropOut << std::endl;
+	void saveModel(ofstream& os) const{
+		os <<  wordcontext << std::endl;
+		os <<  hiddensize << std::endl;
+		os <<  rnnhiddensize << std::endl;
+		os <<  dropOut << std::endl;
 
 
-		os << nnRegular << std::endl;
-		os << adaAlpha << std::endl;
-		os << adaEps << std::endl;
+		os <<  nnRegular << std::endl; 
+		os <<  adaAlpha << std::endl; 
+		os <<  adaEps << std::endl; 
 
-		os << wordwindow << std::endl;
-		os << wordDim << std::endl;
-		os << charDim << std::endl;
+		os <<  wordwindow << std::endl;
+		os <<  wordDim << std::endl;
 
 		int typeDimsSize = typeDims.size();
 		os << typeDimsSize << std::endl;
 		for (int idx = 0; idx < typeDimsSize; idx++)
 			os << typeDims[idx] << std::endl;
 
-		os << unitsize << std::endl;
-		os << inputsize << std::endl;
-		os << labelSize << std::endl;
+		os <<  unitsize << std::endl;
+		os <<  inputsize << std::endl;
+		os <<  labelSize << std::endl;
 	}
 
-	void loadModel(ifstream& is) {
-		is >> wordcontext;
-		is >> hiddensize;
-		is >> rnnhiddensize;
-		is >> dropOut;
+	void loadModel(ifstream& is){
+		is >>  wordcontext;
+		is >>  hiddensize;
+		is >>  rnnhiddensize;
+		is >>  dropOut;
 
-		is >> nnRegular;
-		is >> adaAlpha;
-		is >> adaEps;
+		is >>  nnRegular; 
+		is >>  adaAlpha; 
+		is >>  adaEps;
 
-		is >> wordwindow;
-		is >> wordDim;
-		is >> charDim;
+		is >>  wordwindow;
+		is >>  wordDim;
 
 		int typeDimsSize = typeDims.size();
 		is >> typeDimsSize;
@@ -104,15 +100,15 @@ public:
 		for (int idx = 0; idx < typeDimsSize; idx++)
 			is >> typeDims[idx];
 
-		is >> unitsize;
-		is >> inputsize;
-		is >> labelSize;
+		is >>  unitsize;
+		is >>  inputsize;
+		is >>  labelSize;
 		bAssigned = true;
 	}
 
 public:
 
-	void print() {
+	void print(){
 
 	}
 

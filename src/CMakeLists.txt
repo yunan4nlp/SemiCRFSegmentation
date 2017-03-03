@@ -3,7 +3,7 @@ include_directories(
   basic
 )
 
-
+add_subdirectory(SparseCRFSegmentor)
 add_subdirectory(NNCRFSegmentor)
 add_subdirectory(NNCharCRFSegmentor)
 add_subdirectory(NNSparseCRFSegmentor)
